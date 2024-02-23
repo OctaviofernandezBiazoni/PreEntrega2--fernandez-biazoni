@@ -26,7 +26,6 @@ body{
     padding: 0%;    
     height: 100%;
     background-image: url(../resources/images/background.jpg);
-    background-color: #0F110C;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -297,141 +296,26 @@ h2.pedidos{
     height: 30px;
     width: 200px;
 }
-.calientes ul{
+.carousel-inner{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-items:center;
+    align-content:space-between;
 }
-.calientes h3{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    background-color: red;
-}
-.calientes a{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    background-color: red;
-}
-.calientes li{
+.carousel-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
-    height: auto;
-    width: auto;
-    padding: 60px;
-    margin: 10px;
-    border-radius: 20px;
-}.calientes img{
-    display: flex;
-    justify-content: left;
-    height: 250px;
+    align-items: center;
+    background-color: #A20021;
+    height: 500px;
     width: 400px;
-    border: solid;
-    border-color: red
-}
-.calientes{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 50px;
-}
-.carrousell1{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 50px;
-}
-.tablas ul{
-    display: flex;
-    justify-content: space-between;
-}
-.tablas h3{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    background-color: red;
-}
-.tablas a{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    background-color: red;
-}
-.tablas li{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: black;
-    height: auto;
-    width: auto;
-    padding: 60px;
     margin: 10px;
-    border-radius: 20px;
-}.tablas img{
-    display: flex;
-    justify-content: left;
-    height: 250px;
-    width: 400px;
-    border: solid;
-    border-color: red
+    border-radius: 12px;
 }
-.carrousell1{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 50px;
-}
-.bebidas ul{
-    display: flex;
-    justify-content: space-between;
-}
-.bebidas h3{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    background-color: red;
-}
-.bebidas a{
-    display:flex;
-    justify-content: center;
-    font-family: poppinsregular;
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    background-color: red;
-}
-.bebidas li{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: black;
-    height: auto;
-    width: auto;
-    padding: 60px;
-    margin: 10px;
-    border-radius: 20px;
-}
-.bebidas img{
-    display: flex;
-    justify-content: left;
-    height: 250px;
-    width: 175px;
-    border: solid;
-    border-color: red
+.carousel-item img{
+    height: 400px;
+    width: 300px;
 }
 /*ESTILADO PAGINA PROMOTIONS*/
 div.promo1{
