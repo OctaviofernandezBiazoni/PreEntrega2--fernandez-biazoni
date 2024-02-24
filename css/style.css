@@ -38,7 +38,7 @@ header{
     width: 100%;
     position: fixed;
 }
-header .container{
+header .container-fluid{
     display: flex;
     margin: 0%;
     padding: 0%;
@@ -313,7 +313,7 @@ img.contacto{
     margin-left: 50px;
 }
 /*  ESTILADO PAGINA HACE TU PEDIDO*/
-h2.pedidos{
+.carta{
     display: flex;
     justify-content: left;
     color: white;
@@ -374,6 +374,11 @@ div.card{
     padding: 10px;
     height: 300px;
     width: 500px;
+}
+.bebidas img{
+    display: flex;
+    height: 400px;
+    width: 300px;
 }
 /*ESTILADO PAGINA PROMOTIONS*/
 div.promo1{
