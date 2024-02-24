@@ -16,12 +16,12 @@
 }
 body{
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(3, minmax(0, 1fr));
     grid-template-rows: 85px auto 75px;
     grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer" ;
+    "header header header"
+    "main main main"
+    "footer footer footer" ;
     margin: 0%;
     padding: 0%;    
     height: 100%;
@@ -31,10 +31,21 @@ body{
     background-attachment: fixed;
 }
 header{
+    z-index: 10000;
     grid-area: header;
-    height: 70px;
+    display: flex;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+}
+header .container{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
 }
 main{
+    margin: 0%;
+    padding: 0%;
     grid-area: main;
     height: auto;
     width: 100%;
@@ -45,9 +56,9 @@ nav.header{
     height: 70px;
     width: 100%;
     margin: 0%;
+    position: fixed;
 }
 header ul{
-    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,19 +69,32 @@ header ul{
     padding-left: 5px;
     padding-right: 5px;
     background-color: #0F110C;
+    position: fixed;    
 }
 li{
     list-style-type: none;
 }
 header a.inicio{
     display: flex;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     margin-left: 20px;
 }
-header a.link{
+header .link{
     font-family: poppins;
-    font-size: 14px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0% 40px 0% 40px;
+    display: flex;
+    align-items: end;
+    justify-content:right;
+    color: #A2A7A5;
+}
+header .link-central{
+    font-family: poppinsmedium;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -79,7 +103,6 @@ header a.link{
     align-items: end;
     justify-content:right;
     color: #A2A7A5;
-    
 }
 main.home{
     margin: auto;
@@ -125,8 +148,11 @@ main .tabla{
 footer{
     grid-area: footer;
     display: flex;
+    background-color: #0F110C;
     height:75px;
     width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 nav.footer{
     display: flex;
@@ -134,12 +160,15 @@ nav.footer{
     height: 75px;
     width: 100%;
     margin: 0%;
+    background-color: #0F110C;
+    justify-content: space-between;
 }
 footer ul{
     display: flex;
     flex-direction: row;
-    margin: 0%;
+    margin: 10px;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #0F110C;
 }
@@ -156,7 +185,7 @@ footer .ig{
     height: 45px;
     padding: 5px;
 }
-footer .maps{
+footer .firma{
     display: flex;
     width: 45px;
     height: 45px;
@@ -246,8 +275,6 @@ h2.redes{
     text-decoration: underline;
     margin-right: 130px;
     margin-top: 5px;
-    
-
 }
 h2.mapa{
     display: flex;
@@ -296,26 +323,57 @@ h2.pedidos{
     height: 30px;
     width: 200px;
 }
-.carousel-inner{
+.row{
     display: flex;
     flex-direction: row;
-    justify-items:center;
-    align-content:space-between;
+    justify-content:center;
+    align-items:space-between;
+    margin: 20px 0%;
 }
-.carousel-item{
+.carousel-calientes{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: space-between;
+}
+.carousel-control-prev{
+    display: flex;
+    width: 100px;
+}
+.carousel-control-next{
+    display: flex;
+    width: 100px;
+}
+.carousel-inner{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+div.card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #A20021;
+    border: 4px;
+    border-style: solid;
+    border-color: #A2A7A5;
     height: 500px;
-    width: 400px;
-    margin: 10px;
+    width: 600px;
     border-radius: 12px;
+    margin: 0%;
+    padding: 0%;
 }
-.carousel-item img{
-    height: 400px;
-    width: 300px;
+.card img{
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
 }
 /*ESTILADO PAGINA PROMOTIONS*/
 div.promo1{
