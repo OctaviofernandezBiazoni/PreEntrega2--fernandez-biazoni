@@ -3,16 +3,16 @@
     margin: 0%;
 }
 @font-face {
-    font-family:sushibar;
-    src: url(../fonts/dksushiBar.ttf)
+    font-family: sushibar;
+    src: url(../resources/fonts/dksushiBar.ttf)
 }
 @font-face {
-        font-family:poppins;
-        src: url(../fonts/poppinsregular.ttf);
+        font-family: poppins;
+        src: url(../resources/fonts/poppinsregular.ttf);
 }
 @font-face {
     font-family: poppinsmedium;
-    src: url(../fonts/poppinsmedium.ttf);
+    src: url(../resources/fonts/poppinsmedium.ttf);
 }
 body{
     display: grid;
@@ -313,18 +313,38 @@ img.contacto{
     margin-left: 50px;
 }
 /*  ESTILADO PAGINA HACE TU PEDIDO*/
-.card{
+#maps{
+    display: flex;
+    justify-content: center;
+}
+.maps{
+    display: flex;
+    margin: 0% 30px;
+    width: 1400px;
+}
+#datos{
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#imagenes{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
+}
+#imagenes img{
+    height: 80px;
+    width: 80px;
     background-color: #A20021;
-    width: 600px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-color: #0F110C;
+    border: 4px;
+    border-style: solid;
+
 }
-.calientes{
-    display: flex;
-    width: 500px;
-    height: 400px;
-}
+#contact{}
 /*ESTILADO PAGINA PROMOTIONS*/
 div.promo1{
     display: flex;
