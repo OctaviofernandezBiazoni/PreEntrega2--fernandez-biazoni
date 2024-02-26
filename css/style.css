@@ -259,60 +259,6 @@ p.tercero{
     width: 90%;
 }
 /*ESTILADO PAGINA CONTACTO*/
-div.subtitulos{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding: 20px;
-}
-h2.redes{
-    display: flex;
-    height: 40px;
-    width: 160px;
-    justify-content: right;
-    font-family: poppins;
-    color: white;
-    text-decoration: underline;
-    margin-right: 130px;
-    margin-top: 5px;
-}
-h2.mapa{
-    display: flex;
-    justify-content: left;
-    font-family: poppins;
-    color: white;
-    text-decoration: underline;
-    margin-top: 5px;
-    margin-left: 120px;
-    height: 40px;
-    width: 160px;
-}
-div.redes{
-    display: flex;
-    justify-content: space-between;
-}
-div.redes ul{
-    margin-right: 90px;
-}
-li.metodos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;    
-}
-li.metodos a{
-    color: white;
-    font-family: poppins;
-    font-size: 18px;
-    margin: 50px;
-}
-img.contacto{
-    display: flex;
-    justify-content:left;
-    width: 400px;
-    height: 400px;
-    margin-left: 50px;
-}
-/*  ESTILADO PAGINA HACE TU PEDIDO*/
 #maps{
     display: flex;
     justify-content: center;
@@ -332,6 +278,7 @@ img.contacto{
     display: flex;
     flex-direction: column;
     justify-items: center;
+    margin-left: 200PX;
 }
 #imagenes img{
     height: 80px;
@@ -342,9 +289,73 @@ img.contacto{
     border-color: #0F110C;
     border: 4px;
     border-style: solid;
-
 }
-#contact{}
+h2.ig{
+    margin-bottom: 95px;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #0F110C;
+    font-family: poppins;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+}
+h2.phone{
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #0F110C;
+    font-family: poppns;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;  
+}
+/*  ESTILADO PAGINA HACE TU PEDIDO*/
+h2.carousel{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    border-color: #A2A7A5;
+    background-color: #A20021;
+    font-family: sushibar;
+    color: #0F110C;
+    width: 235px;
+    border-left: unset;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A20021;
+    margin: 0% 428px;
+    margin-bottom: 40px;
+    width: 600px;
+    font-family: poppins;
+}
+.card-body h5{
+    font-family: poppins;
+}
+.card-boddy p{
+    font-family: poppins;
+}
+.card-img-top{
+    margin-top: 20px;
+    display: flex;
+    width: 500px;
+    height: 400px
+}
+a.btn-primary{
+    background-color: #A2A7A5;
+    color: #A20021;
+    border-color: unset;
+    
+}
 /*ESTILADO PAGINA PROMOTIONS*/
 div.promo1{
     display: flex;
@@ -363,33 +374,48 @@ div.promo3{
 }
 h2.promo1{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: white;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-left: unset;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    width: 200px;
 }
 h2.promo2{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: white;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-left: unset;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    width: 200px;
 }
 h2.promo3{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: white;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-left: unset;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    width: 200px;
 }
 .promo1 p{
     display: flex;
