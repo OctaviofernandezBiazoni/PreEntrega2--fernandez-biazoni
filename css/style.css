@@ -467,6 +467,16 @@ h2.promo1{
     margin-bottom: 5px;
     width: 200px;
 }
+#h2promo2{
+    display: flex;
+    justify-content: right;
+    margin: 0%;
+    padding: 0%;  
+}
+#promo{
+    margin: 0%;
+    padding: 0%;
+}
 h2.promo2{
     display: flex;
     justify-content: center;
@@ -477,7 +487,7 @@ h2.promo2{
     border: 4px;
     border-style: solid;
     border-color: #0F110C;
-    border-left: unset;
+    border-right: unset;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 200px;
