@@ -108,15 +108,28 @@ main.home{
     margin: auto;
     text-align: center;
 }
-h1{
+#h1home{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+}
+h1.index{
     font-family: sushibar;
     font-size: 48px;
-    padding-top: 60px;
-    color: #A2A7A5;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+
+}
+#h2home{
+    display: flex;
+    justify-content: center;
 }
 h2.inicio{
     display: flex;
@@ -125,15 +138,21 @@ h2.inicio{
     display: flex;
     font-family: poppins;
     font-size: 36px;
-    color: #A2A7A5;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+    width: 400px;
+    height: 60px;
 }
 video.home{
     display: flex;
     flex-direction: row;
     margin: auto;
     margin-bottom: 30px;
-    height: 300px;
-    width: 400px
+    height: 500px;
+    width: 700px
 }
 main .rolls{
     height: 300px;
@@ -193,34 +212,76 @@ footer .firma{
     padding: 5px;
 }
 /*ESTILADO PAGINA SOBRE NOSOTROS*/
-h2.primero{
+#h1aboutus{
+    display: flex;
+    justify-content: center;
+}
+h1.aboutus{
+    font-family: sushibar;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid; 
+}
+#h2aboutus{
     display: flex;
     justify-content: left;
+}
+#h2aboutussegundo{
+    display: flex;
+    justify-content: right;
+}
+h2.primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
     font-family: poppins;
     font-size: 36px;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 20px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+    width: 400px;
+    height: 60px;
 }
 h2.segundo{
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
     font-family: poppins;
     font-size: 36px;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 30px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+    width: 400px;
+    height: 60px;
 }
 h2.tercero{
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
     font-family: poppins;
     font-size: 36px;
-    color: white;
-    margin-top: 5px;
-    margin-left: 20px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+    width: 400px;
+    height: 60px;
 }
 p.primero{
     display: flex;
@@ -357,6 +418,25 @@ a.btn-primary{
     
 }
 /*ESTILADO PAGINA PROMOTIONS*/
+#titulo-promos{
+    display: flex;
+    justify-content: center;
+}
+h1.promos{
+    font-family: sushibar;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+
+}
 div.promo1{
     display: flex;
     justify-content: space-between;
