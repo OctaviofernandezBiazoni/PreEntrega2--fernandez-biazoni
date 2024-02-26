@@ -88,6 +88,7 @@ header a.inicio{
     color: transparent;
     width: 60px;
     height: 60px;
+    margin-bottom: 0%;
 }
 header .link{
     font-family: poppins;
@@ -104,25 +105,6 @@ header .link-central{
 main.home{
     margin: auto;
     text-align: center;
-}
-#h1home{
-    display: flex;
-    justify-content: center;
-}
-h1.index{
-    font-family: sushibar;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 60px;
-    background-color: #A2A7A5;
-    color: #A20021;
-    border: 4px;
-    border-color: #0F110C;
-    border-style: solid;
-
 }
 #h2home{
     display: flex;
@@ -566,85 +548,89 @@ h2.promo3{
         top: 0%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 40px;
         background-color: #0F110C;
         margin: 0%;
         padding: 0%;
-        z-index: 100000000;
     }
     header{
-        position: fixed;
+        position: unset;
         top:0%;
         margin: 0%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        z-index: 1000000;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
     }
     nav.header{
         margin: 0;
         display: flex;
-        flex-direction: column-reverse;
-        align-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         text-align: center;
         width: 100%;
-        height: 200px;
+        height: 300px;
+        position:unset;
         }
     header ul{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         text-align: center;
         width: 100%; 
-        height: 200px;
+        height: 300px;
         margin: 0%;
+        padding: 10px 0%;
+        position: unset;
     }
     header a.inicio img{
         display: none;
-        visibility: none;
-    } 
+    }
     header a.inicio{
+        display: flex;
         font-family: poppinsmedium;
         font-size: 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        margin-right:0;
-        display: flex;
-        align-items: end;
-        justify-content:right;
         color: #A2A7A5;
-    }
-    header .link{ 
-    margin: 0%;
-    }
-    header .link-central{   
-        }
+    } 
     #menu-check:not(:checked) ~ nav{
         display: none;
     }
     #menu-check:checked ~ nav{
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(0);
+        text-align: center;
+        margin-top: 40px;
+        width: 576px;
+        height: 300px;
+        height:auto;
+        position: unset;
+
     }
     #menu{
         display: block;
+        text-align: center;
+        font-size: 21px;
         color: #A2A7A5;
         background-color: #A20021;
         border: 4px;
         border-color: #0F110C;
         border-style: solid;
         font-weight: bold;
-        
-    }
-    #menu:hover{
-        color:#A20021;
-        background-color: #A2A7A5;
-    }
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0%;
+        left: 47%;
+    }    
     #menu-cerrar{
-        display: none;
+        display: none;    
     }
     #menu-check:checked ~ label #menu-abrir{
         display: none;
@@ -652,51 +638,17 @@ h2.promo3{
     #menu-check:checked ~ label #menu-cerrar{
         display:block;
     }
-    main.home{
-        margin: auto;
-        text-align: center;
-    }
-    #h1home{
-        display: flex;
-        justify-content: center;
-    }
-    h1.index{
-        font-family: sushibar;
-        font-size: 48px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        height: 60px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-    
-    }
     #h2home{
         display: flex;
         justify-content: center;
     }
-    h2.inicio{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        display: flex;
-        font-family: poppins;
-        font-size: 36px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-        width: 400px;
-        height: 60px;
+    header a.link{
+        margin: 0%;
     }
     video.home{
         height: 300px;
-        width: 300px
+        width: 300px;
+        pointer-events: none;
     }
     main .rolls{
         height: 200px;
@@ -707,51 +659,25 @@ h2.promo3{
         width: 300px;
     }
     footer{
-        grid-area: footer;
-        display: flex;
-        background-color: #0F110C;
-        height:75px;
-        width: 98%;
-        margin: 0%;
-        padding: 0%;
+        height: 55px;
     }
     nav.footer{
-        display: flex;
-        align-items:flex-end;
-        height: 75px;
-        width: 100%;
-        margin: 0%;
-        background-color: #0F110C;
-        justify-content: space-between;
+        height: 55px;
     }
     footer ul{
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        background-color: #0F110C;
+        height: 50px;
     }
     footer .wapp{
-        display: flex;
-        width: 45px;
-        height: 45px;
-        margin-left: 10px;
-        padding: 5px;
+        width: 40px;
+        height: 40px;
     }
     footer .ig{
-        display: flex;
-        width: 45px;
-        height: 45px;
-        padding: 5px;
+        width: 40px;
+        height: 40px;
     }
     footer .firma{
-        display: flex;
-        width: 45px;
-        height: 45px;
-        margin-right: 10px;
-        padding: 5px;
+        width: 40px;
+        height: 40px;
     }
     /*ESTILADO PAGINA SOBRE NOSOTROS*/
     #h1aboutus{
