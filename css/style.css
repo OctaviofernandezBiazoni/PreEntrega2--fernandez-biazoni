@@ -380,13 +380,13 @@ h2.phone{
 h2.carousel{
     display: flex;
     justify-content: center;
-    border: 2px;
+    border: 4px;
     border-style: solid;
-    border-color: #A2A7A5;
+    border-color: #0F110C;
     background-color: #A20021;
-    font-family: sushibar;
-    color: #0F110C;
-    width: 235px;
+    font-family: poppinsmedium;
+    color: #A2A7A5;
+    width: 290px;
     border-left: unset;
 }
 .card{
