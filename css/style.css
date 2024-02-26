@@ -299,6 +299,26 @@ p.tercero{
     width: 90%;
 }
 /*ESTILADO PAGINA CONTACTO*/
+#h1contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1.contact{
+    font-family: sushibar;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+}
 #maps{
     display: flex;
     justify-content: center;
@@ -366,7 +386,6 @@ h2.carousel{
     font-family: poppinsmedium;
     color: #A2A7A5;
     width: 290px;
-    border-left: unset;
 }
 .card{
     display: flex;
@@ -554,6 +573,7 @@ h2.promo3{
         background-color: #0F110C;
         margin: 0%;
         padding: 0%;
+        z-index: 10000000;
     }
     header{
         position: unset;
@@ -564,6 +584,7 @@ h2.promo3{
         justify-content: space-between;
         align-items: center;
         height: 40px;
+        z-index: 10000000000;
     }
     nav.header{
         margin: 0;
@@ -575,6 +596,7 @@ h2.promo3{
         width: 100%;
         height: 300px;
         position:unset;
+        z-index: 10000000000;
         }
     header ul{
         display: flex;
@@ -587,6 +609,7 @@ h2.promo3{
         margin: 0%;
         padding: 10px 0%;
         position: unset;
+        z-index: 100000000000;
     }
     header a.inicio img{
         display: none;
@@ -679,123 +702,17 @@ h2.promo3{
         width: 40px;
         height: 40px;
     }
-    /*ESTILADO PAGINA SOBRE NOSOTROS*/
-    #h1aboutus{
-        display: flex;
-        justify-content: center;
-    }
-    h1.aboutus{
-        font-family: sushibar;
-        font-size: 48px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        height: 60px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid; 
-    }
-    #h2aboutus{
-        display: flex;
-        justify-content: left;
-    }
-    #h2aboutussegundo{
-        display: flex;
-        justify-content: right;
-    }
-    h2.primero{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        display: flex;
-        font-family: poppins;
-        font-size: 36px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-        width: 400px;
-        height: 60px;
-    }
-    h2.segundo{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        display: flex;
-        font-family: poppins;
-        font-size: 36px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-        width: 400px;
-        height: 60px;
-    }
-    h2.tercero{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        display: flex;
-        font-family: poppins;
-        font-size: 36px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-        width: 400px;
-        height: 60px;
-    }
-    p.primero{
-        display: flex;
-        justify-content: left;
-        font-family: poppins;
-        font-size: 15px;
-        color: white;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 20px;
-        padding:10px;
-        width: 90%;
-    }
-    p.segundo{
-        display: flex;
-        justify-content: right;
-        font-family: poppins;
-        font-size: 15px;
-        color: white;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 20px;
-        padding:10px;
-        width: 90%;
-    }
-    p.tercero{
-        display: flex;
-        justify-content: left;
-        font-family: poppins;
-        font-size: 15px;
-        color: white;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 20px;
-        padding:10px;
-        width: 90%;
-    }
     /*ESTILADO PAGINA CONTACTO*/
     #maps{
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     .maps{
         display: flex;
         margin: 0% 30px;
-        width: 1400px;
+        width: 500px;
+        height: 500px;
     }
     #datos{
         margin: 60px;
@@ -807,11 +724,11 @@ h2.promo3{
         display: flex;
         flex-direction: column;
         justify-items: center;
-        margin-left: 200PX;
+        margin-left: 5px;
     }
     #imagenes img{
-        height: 80px;
-        width: 80px;
+        height: 60%;
+        width: 60px;
         background-color: #A20021;
         margin-bottom: 10px;
         border-radius: 12px;
@@ -820,7 +737,7 @@ h2.promo3{
         border-style: solid;
     }
     h2.ig{
-        margin-bottom: 95px;
+        margin-bottom: 40px;
         color: #A20021;
         background-color: #A2A7A5;
         border: 4px;
@@ -829,7 +746,7 @@ h2.promo3{
         border-color: #0F110C;
         font-family: poppins;
         text-align: center;
-        width: 300px;
+        width: 200px;
         font-size: 20px;
     }
     h2.phone{
@@ -841,10 +758,22 @@ h2.promo3{
         border-color: #0F110C;
         font-family: poppns;
         text-align: center;
-        width: 300px;
+        width: 200px;
         font-size: 20px;  
     }
     /*  ESTILADO PAGINA HACE TU PEDIDO*/
+    #carouselCalientes{
+        display: flex;
+        width: 100%;
+    }
+    #carouselTablas{
+        display: flex;
+        width: 100%;
+    }
+    #carouselBebidas{
+        display: flex;
+        width: 100%;
+    }
     h2.carousel{
         display: flex;
         justify-content: center;
@@ -855,126 +784,24 @@ h2.promo3{
         font-family: poppinsmedium;
         color: #A2A7A5;
         width: 290px;
-        border-left: unset;
     }
     .card{
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #A20021;
-        margin: 0% 428px;
+        margin: 0% 70px;
         margin-bottom: 40px;
-        width: 600px;
-        font-family: poppins;
-    }
-    .card-body h5{
-        font-family: poppins;
-    }
-    .card-boddy p{
+        width: 400px;
         font-family: poppins;
     }
     .card-img-top{
         margin-top: 20px;
         display: flex;
-        width: 500px;
+        width: 350px;
         height: 400px
     }
-    a.btn-primary{
-        background-color: #A2A7A5;
-        color: #A20021;
-        border-color: unset;
-        
-    }
     /*ESTILADO PAGINA PROMOTIONS*/
-    #titulo-promos{
-        display: flex;
-        justify-content: center;
-    }
-    h1.promos{
-        font-family: sushibar;
-        font-size: 48px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        height: 60px;
-        background-color: #A2A7A5;
-        color: #A20021;
-        border: 4px;
-        border-color: #0F110C;
-        border-style: solid;
-    
-    }
-    div.promo1{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    div.promo2{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-    }
-    div.promo3{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;    
-    }
-    h2.promo1{
-        display: flex;
-        justify-content: center;
-        font-family: poppins;
-        font-size: 36px;
-        color: #A20021;
-        background-color: #A2A7A5;
-        border: 4px;
-        border-style: solid;
-        border-color: #0F110C;
-        border-left: unset;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 200px;
-    }
-    #h2promo2{
-        display: flex;
-        justify-content: right;
-        margin: 0%;
-        padding: 0%;  
-    }
-    #promo{
-        margin: 0%;
-        padding: 0%;
-    }
-    h2.promo2{
-        display: flex;
-        justify-content: center;
-        font-family: poppins;
-        font-size: 36px;
-        color: #A20021;
-        background-color: #A2A7A5;
-        border: 4px;
-        border-style: solid;
-        border-color: #0F110C;
-        border-right: unset;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 200px;
-    }
-    h2.promo3{
-        display: flex;
-        justify-content: center;
-        font-family: poppins;
-        font-size: 36px;
-        color: #A20021;
-        background-color: #A2A7A5;
-        border: 4px;
-        border-style: solid;
-        border-color: #0F110C;
-        border-left: unset;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 200px;
-    }
     .promo1 p{
         display: flex;
         display: inline-block;
@@ -982,9 +809,10 @@ h2.promo3{
         font-family: poppins;
         font-size: 15px;
         color: white;
-        width: 300px;
-        margin-top: 50px;
-        margin-right: 200px;
+        width: 200px;
+        margin-top: unset;
+        margin-right: 30px;
+    
     }
     .promo2 p{
         display: flex;
@@ -993,9 +821,9 @@ h2.promo3{
         font-family: poppins;
         font-size: 15px;
         color: white;
-        width: 300px;
-        margin-top: 50px;
-        margin-left: 200px;
+        width: 200px;
+        margin-top: unset;
+        margin-left: 30px;
     }
     .promo3 p{
         display: flex;
@@ -1004,29 +832,29 @@ h2.promo3{
         font-family: poppins;
         font-size: 15px;
         color: white;
-        width: 300px;
-        margin-top: 50px;
-        margin-right: 200px;
+        width: 200px;
+        margin-top: unset;
+        margin-right: 30px;
     }
     .promo1 img{
         display: flex;
         justify-content: left;
         margin: 20px;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     .promo2 img{
         display: flex;
         justify-content: left;
         margin: 20px;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     .promo3 img{
         display: flex;
         justify-content: left;
         margin: 20px;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }   
 }
