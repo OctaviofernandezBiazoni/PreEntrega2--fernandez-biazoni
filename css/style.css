@@ -1,0 +1,483 @@
+/*  ESTILADO PAGINA HACE TU PEDIDO*/
+h2.carousel{
+    display: flex;
+    justify-content: center;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    background-color: #A20021;
+    font-family: poppinsmedium;
+    color: #A2A7A5;
+    width: 290px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A20021;
+    margin: 0% 428px;
+    margin-bottom: 40px;
+    width: 600px;
+    font-family: poppins;
+}
+.card-body h5{
+    font-family: poppins;
+}
+.card-boddy p{
+    font-family: poppins;
+}
+.card-img-top{
+    margin-top: 20px;
+    display: flex;
+    width: 500px;
+    height: 400px
+}
+a.btn-primary{
+    background-color: #A2A7A5;
+    color: #A20021;
+    border-color: unset;
+    
+}
+/*ESTILADO PAGINA PROMOTIONS*/
+#titulo-promos{
+    display: flex;
+    justify-content: center;
+}
+h1.promos{
+    font-family: sushibar;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: #A2A7A5;
+    color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+
+}
+div.promo1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+div.promo2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+div.promo3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+h2.promo1{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 36px;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-left: unset;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+#h2promo2{
+    display: flex;
+    justify-content: right;
+    margin: 0%;
+    padding: 0%;  
+}
+#promo{
+    margin: 0%;
+    padding: 0%;
+}
+h2.promo2{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 36px;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-right: unset;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+h2.promo3{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 36px;
+    color: #A20021;
+    background-color: #A2A7A5;
+    border: 4px;
+    border-style: solid;
+    border-color: #0F110C;
+    border-left: unset;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+.promo1 p{
+    display: flex;
+    display: inline-block;
+    justify-content: right;
+    font-family: poppins;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.promo2 p{
+    display: flex;
+    display: inline-block;
+    justify-content: left;
+    font-family: poppins;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.promo3 p{
+    display: flex;
+    display: inline-block;
+    justify-content: right;
+    font-family: poppins;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.promo1 img{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.promo2 img{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.promo3 img{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+/*medias quiery*/
+/*query del home*/
+@media(max-width:576px){
+    header .container-fluid{
+        position: fixed;
+        top: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        background-color: #0F110C;
+        margin: 0%;
+        padding: 0%;
+        z-index: 10000000;
+    }
+    header{
+        position: unset;
+        top:0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        z-index: 10000000000;
+    }
+    nav.header{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        position:unset;
+        z-index: 10000000000;
+        }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%; 
+        height: 300px;
+        margin: 0%;
+        padding: 10px 0%;
+        position: unset;
+        z-index: 100000000000;
+    }
+    header a.inicio img{
+        display: none;
+    }
+    header a.inicio{
+        display: flex;
+        font-family: poppinsmedium;
+        font-size: 24px;
+        color: #A2A7A5;
+    } 
+    #menu-check:not(:checked) ~ nav{
+        display: none;
+    }
+    #menu-check:checked ~ nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(0);
+        text-align: center;
+        margin-top: 40px;
+        width: 576px;
+        height: 300px;
+        height:auto;
+        position: unset;
+
+    }
+    #menu{
+        display: block;
+        text-align: center;
+        font-size: 21px;
+        color: #A2A7A5;
+        background-color: #A20021;
+        border: 4px;
+        border-color: #0F110C;
+        border-style: solid;
+        font-weight: bold;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0%;
+        left: 47%;
+    }    
+    #menu-cerrar{
+        display: none;    
+    }
+    #menu-check:checked ~ label #menu-abrir{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar{
+        display:block;
+    }
+    #h2home{
+        display: flex;
+        justify-content: center;
+    }
+    header a.link{
+        margin: 0%;
+    }
+    video.home{
+        height: 300px;
+        width: 300px;
+        pointer-events: none;
+    }
+    main .rolls{
+        height: 200px;
+        width: 300px;
+    }
+    main .tabla{
+        height: 200px;
+        width: 300px;
+    }
+    footer{
+        height: 55px;
+    }
+    nav.footer{
+        height: 55px;
+    }
+    footer ul{
+        height: 50px;
+    }
+    footer .wapp{
+        width: 40px;
+        height: 40px;
+    }
+    footer .ig{
+        width: 40px;
+        height: 40px;
+    }
+    footer .firma{
+        width: 40px;
+        height: 40px;
+    }
+    /*ESTILADO PAGINA CONTACTO*/
+    #maps{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .maps{
+        display: flex;
+        margin: 0% 30px;
+        width: 500px;
+        height: 500px;
+    }
+    #datos{
+        margin: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 5px;
+    }
+    #imagenes img{
+        height: 60%;
+        width: 60px;
+        background-color: #A20021;
+        margin-bottom: 10px;
+        border-radius: 12px;
+        border-color: #0F110C;
+        border: 4px;
+        border-style: solid;
+    }
+    h2.ig{
+        margin-bottom: 40px;
+        color: #A20021;
+        background-color: #A2A7A5;
+        border: 4px;
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #0F110C;
+        font-family: poppins;
+        text-align: center;
+        width: 200px;
+        font-size: 20px;
+    }
+    h2.phone{
+        color: #A20021;
+        background-color: #A2A7A5;
+        border: 4px;
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #0F110C;
+        font-family: poppns;
+        text-align: center;
+        width: 200px;
+        font-size: 20px;  
+    }
+    /*  ESTILADO PAGINA HACE TU PEDIDO*/
+    #carouselCalientes{
+        display: flex;
+        width: 100%;
+    }
+    #carouselTablas{
+        display: flex;
+        width: 100%;
+    }
+    #carouselBebidas{
+        display: flex;
+        width: 100%;
+    }
+    h2.carousel{
+        display: flex;
+        justify-content: center;
+        border: 4px;
+        border-style: solid;
+        border-color: #0F110C;
+        background-color: #A20021;
+        font-family: poppinsmedium;
+        color: #A2A7A5;
+        width: 290px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A20021;
+        margin: 0% 70px;
+        margin-bottom: 40px;
+        width: 400px;
+        font-family: poppins;
+    }
+    .card-img-top{
+        margin-top: 20px;
+        display: flex;
+        width: 350px;
+        height: 400px
+    }
+    /*ESTILADO PAGINA PROMOTIONS*/
+    .promo1 p{
+        display: flex;
+        display: inline-block;
+        justify-content: right;
+        font-family: poppins;
+        font-size: 15px;
+        color: white;
+        width: 200px;
+        margin-top: unset;
+        margin-right: 30px;
+    
+    }
+    .promo2 p{
+        display: flex;
+        display: inline-block;
+        justify-content: left;
+        font-family: poppins;
+        font-size: 15px;
+        color: white;
+        width: 200px;
+        margin-top: unset;
+        margin-left: 30px;
+    }
+    .promo3 p{
+        display: flex;
+        display: inline-block;
+        justify-content: right;
+        font-family: poppins;
+        font-size: 15px;
+        color: white;
+        width: 200px;
+        margin-top: unset;
+        margin-right: 30px;
+    }
+    .promo1 img{
+        display: flex;
+        justify-content: left;
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .promo2 img{
+        display: flex;
+        justify-content: left;
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .promo3 img{
+        display: flex;
+        justify-content: left;
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+    }   
+}

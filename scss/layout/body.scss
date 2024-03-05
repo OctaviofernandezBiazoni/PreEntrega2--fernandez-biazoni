@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 85px auto 75px;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer" ;   
+    height: 100%;
+    width: 100%;
+    background-image: url(../resources/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+}

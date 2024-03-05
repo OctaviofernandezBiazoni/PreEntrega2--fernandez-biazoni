@@ -1,0 +1,50 @@
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: #0F110C;
+    height:75px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    .footer{
+        display: flex;
+        align-items:flex-end;
+        height: 75px;
+        width: 100%;
+        margin: 0%;
+        background-color: #0F110C;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #0F110C;
+        .ig{
+            display: flex;
+            width: 45px;
+            height: 45px;
+            padding: 5px;
+        }
+        .wapp{
+            display: flex;
+            width: 45px;
+            height: 45px;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        .firma{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        padding: 5px;
+        }
+
+    }
+    
+    
+}
