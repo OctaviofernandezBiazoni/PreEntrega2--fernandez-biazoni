@@ -15,6 +15,11 @@
   padding: 0%;
 }
 
+div.container-fluid {
+  margin: 0%;
+  padding: 0%;
+}
+
 header {
   grid-area: header;
   display: flex;
@@ -30,6 +35,8 @@ header #menu {
 }
 header .container-fluid {
   display: flex;
+  margin: 0%;
+  padding: 0%;
 }
 header .header {
   display: flex;
@@ -183,7 +190,6 @@ main .rolls {
   margin-bottom: 60px;
 }
 main .tabla {
-  margin-right: -200px;
   height: 300px;
   width: 400px;
   margin-bottom: 60px;
@@ -444,7 +450,25 @@ h2.carousel {
   border-style: solid;
 }
 
-#promo .promo1 {
+div.promo1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+div.promo2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+div.promo3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+h2.promo1 {
   display: flex;
   justify-content: center;
   font-family: poppins;
@@ -458,31 +482,6 @@ h2.carousel {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 200px;
-}
-#promo .promo3 {
-  display: flex;
-  justify-content: center;
-  font-family: poppins;
-  font-size: 36px;
-  color: #A20021;
-  background-color: #A2A7A5;
-  border: 4px;
-  border-style: solid;
-  border-color: #0F110C;
-  border-left: unset;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 200px;
-}
-#promo div.promo1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-#promo div.promo3 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 #h2promo2 {
@@ -491,7 +490,13 @@ h2.carousel {
   margin: 0%;
   padding: 0%;
 }
-#h2promo2 .promo2 {
+
+#promo {
+  margin: 0%;
+  padding: 0%;
+}
+
+h2.promo2 {
   display: flex;
   justify-content: center;
   font-family: poppins;
@@ -505,6 +510,82 @@ h2.carousel {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 200px;
+}
+
+h2.promo3 {
+  display: flex;
+  justify-content: center;
+  font-family: poppins;
+  font-size: 36px;
+  color: #A20021;
+  background-color: #A2A7A5;
+  border: 4px;
+  border-style: solid;
+  border-color: #0F110C;
+  border-left: unset;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.promo1 p {
+  display: flex;
+  display: inline-block;
+  justify-content: right;
+  font-family: poppins;
+  font-size: 15px;
+  color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+.promo2 p {
+  display: flex;
+  display: inline-block;
+  justify-content: left;
+  font-family: poppins;
+  font-size: 15px;
+  color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.promo3 p {
+  display: flex;
+  display: inline-block;
+  justify-content: right;
+  font-family: poppins;
+  font-size: 15px;
+  color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+.promo1 img {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.promo2 img {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.promo3 img {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
