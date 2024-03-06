@@ -98,12 +98,12 @@
     #menu-check:checked ~ label #menu-cerrar{
         display:block;
     }
-    #h2home{
-        display: flex;
-        justify-content: center;
-    }
     header a.link{
         margin: 0%;
+    }
+     #h2home{
+        display: flex;
+        justify-content: center;
     }
     video.home{
         height: 300px;

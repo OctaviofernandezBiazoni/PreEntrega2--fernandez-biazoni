@@ -82,6 +82,109 @@ header li {
   list-style-type: none;
 }
 
+@media (max-width: 576px) {
+  header .container-fluid {
+    position: fixed;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #0F110C;
+    margin: 0%;
+    padding: 0%;
+    z-index: 10000000;
+  }
+  header {
+    position: unset;
+    top: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    z-index: 10000000000;
+  }
+  nav.header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    position: unset;
+    z-index: 10000000000;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 0%;
+    padding: 10px 0%;
+    position: unset;
+    z-index: 100000000000;
+  }
+  header a.inicio img {
+    display: none;
+  }
+  header a.inicio {
+    display: flex;
+    font-family: poppinsmedium;
+    font-size: 24px;
+    color: #A2A7A5;
+  }
+  #menu-check:not(:checked) ~ nav {
+    display: none;
+  }
+  #menu-check:checked ~ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(0);
+    text-align: center;
+    margin-top: 40px;
+    width: 576px;
+    height: 300px;
+    height: auto;
+    position: unset;
+  }
+  #menu {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: #A2A7A5;
+    background-color: #A20021;
+    border: 4px;
+    border-color: #0F110C;
+    border-style: solid;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0%;
+    left: 47%;
+  }
+  #menu-cerrar {
+    display: none;
+  }
+  #menu-check:checked ~ label #menu-abrir {
+    display: none;
+  }
+  #menu-check:checked ~ label #menu-cerrar {
+    display: block;
+  }
+  header a.link {
+    margin: 0%;
+  }
+}
 body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -145,6 +248,29 @@ footer ul .firma {
   padding: 5px;
 }
 
+@media (max-width: 576px) {
+  footer {
+    height: 55px;
+  }
+  nav.footer {
+    height: 55px;
+  }
+  footer ul {
+    height: 50px;
+  }
+  footer .wapp {
+    width: 40px;
+    height: 40px;
+  }
+  footer .ig {
+    width: 40px;
+    height: 40px;
+  }
+  footer .firma {
+    width: 40px;
+    height: 40px;
+  }
+}
 main {
   margin: 0%;
   padding: 0%;
@@ -153,8 +279,8 @@ main {
   width: 100%;
 }
 main main.home {
-  margin: auto;
-  text-align: center;
+  margin: 0%;
+  justify-content: center;
 }
 main #h2home {
   display: flex;
@@ -164,7 +290,6 @@ main .inicio {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  display: flex;
   font-family: poppins;
   font-size: 36px;
   background-color: #A2A7A5;
@@ -195,6 +320,25 @@ main .tabla {
   margin-bottom: 60px;
 }
 
+@media (max-width: 576px) {
+  #h2home {
+    display: flex;
+    justify-content: center;
+  }
+  video.home {
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+  }
+  main .rolls {
+    height: 200px;
+    width: 300px;
+  }
+  main .tabla {
+    height: 200px;
+    width: 300px;
+  }
+}
 #h1aboutus {
   display: flex;
   justify-content: center;
