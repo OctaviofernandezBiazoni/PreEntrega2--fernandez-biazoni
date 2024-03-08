@@ -14,57 +14,35 @@ footer{
         margin: 0%;
         background-color: #0F110C;
         justify-content: space-between;
-    }
-    ul{
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        background-color: #0F110C;
-        .ig{
+        ul{
             display: flex;
-            width: 45px;
-            height: 45px;
-            padding: 5px;
-        }
-        .wapp{
-            display: flex;
-            width: 45px;
-            height: 45px;
-            margin-left: 10px;
-            padding: 5px;
-        }
-        .firma{
-        display: flex;
-        width: 45px;
-        height: 45px;
-        margin-right: 10px;
-        padding: 5px;
-        }
-    }  
-}
-@media(max-width:576px){
-    footer{
-        height: 55px;
+            flex-direction: row;
+            margin: 10px;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: #0F110C;
+            .ig{
+                display: flex;
+                width: 45px;
+                height: 45px;
+                padding: 5px;
+            }
+            .wapp{
+                display: flex;
+                width: 45px;
+                height: 45px;
+                margin-left: 10px;
+                padding: 5px;
+            }
+            .firma{
+                display: flex;
+                width: 45px;
+                height: 45px;
+                margin-right: 10px;
+                padding: 5px;
+            }
+        }  
     }
-    nav.footer{
-        height: 55px;
-    }
-    footer ul{
-        height: 50px;
-    }
-    footer .wapp{
-        width: 40px;
-        height: 40px;
-    }
-    footer .ig{
-        width: 40px;
-        height: 40px;
-    }
-    footer .firma{
-        width: 40px;
-        height: 40px;
-    }
+   
 }
