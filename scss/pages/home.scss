@@ -26,8 +26,17 @@ main.home{
             width: 400px;
             height: 60px;
         }
+        @media(max-width: 576px){
+            display: flex;
+            justify-content: center;
+        }
     }
-    video.home{
+    .home{
+        @media(max-width: 576px){
+            height: 300px;
+            width: 300px;
+            pointer-events: none;
+        }
         display: flex;
         flex-direction: row;
         margin: auto;
@@ -35,14 +44,31 @@ main.home{
         height: 500px;
         width: 700px
     }
-    .rolls{
-        height: 300px;
-        width: 400px;
-        margin-bottom: 60px;
-    }
-    .tabla{
-        height: 300px;
-        width: 400px;
-        margin-bottom: 60px;
+    .imagenes{
+            .rolls{
+                height: 300px;
+                width: 400px;
+                margin-bottom: 60px;
+                @media(max-width: 576px){
+                    height: 200px;
+                    width: 300px;
+                }
+            }
+            .tabla{
+                height: 300px;
+                width: 400px;
+                margin-bottom: 60px;
+                @media(max-width: 576px){
+                    height: 200px;
+                    width: 300px;
+                }
+            }
+        @media(max-width: 576px){
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }    
     }
 }
+    
+    

@@ -8,6 +8,17 @@ h2.carousel{
     font-family: poppinsmedium;
     color: #A2A7A5;
     width: 290px;
+    @media(max-width: 576px){
+        display: flex;
+        justify-content: center;
+        border: 4px;
+        border-style: solid;
+        border-color: #0F110C;
+        background-color: #A20021;
+        font-family: poppinsmedium;
+        color: #A2A7A5;
+        width: 290px;
+    }
 }
 .card{
     display: flex;
@@ -35,5 +46,21 @@ h2.carousel{
         color: #A20021;
         border-color: unset;
         
+    }
+    @media(max-width: 576px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A20021;
+        margin: 0% 70px;
+        margin-bottom: 40px;
+        width: 400px;
+        font-family: poppins;
+        .card-img-top{
+            margin-top: 20px;
+            display: flex;
+            width: 350px;
+            height: 400px
+        }
     }
 }
