@@ -4,6 +4,8 @@ header{
     height: 75px;
     width: 100%;
     position: fixed;
+    margin: 0%;
+    padding: 0%;
     .container-fluid{
         display: flex;
         margin: 0%;
@@ -13,7 +15,7 @@ header{
         }
         #menu{
             display: none;
-            }
+        }
         .header{
             display: flex;
             align-items:flex-start;
@@ -21,7 +23,6 @@ header{
             width: 100%;
             margin: 0%;
             position: fixed;
-            }
             ul{
                 display: flex;
                 flex-direction: row;
@@ -32,15 +33,17 @@ header{
                 width: 100%;
                 padding-left: 5px;
                 padding-right: 5px;
-                background-color: $color-primario;
-                position: fixed;
+                background-color: #0F110C;
+                position: fixed; 
+                li{
+                    list-style-type: none;
+                }
                 .inicio{
                     display: flex;
                     color: transparent;
                     width: 60px;
                     height: 60px;
                     margin-bottom: 0%;
-                    }
                 }
                 .link{
                     font-family: poppins;
@@ -54,8 +57,7 @@ header{
                     text-align: center;
                     color: #A2A7A5;
                 }
-                li{
-                    list-style-type: none;
-                }    
             }
         }
+    }
+}

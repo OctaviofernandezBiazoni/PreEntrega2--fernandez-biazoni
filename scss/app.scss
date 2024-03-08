@@ -1,16 +1,12 @@
-//general
-@import "./general/variables.scss";
+@import"./general/variables.scss";
 @import "./general/reset.scss";
 
-//layout
-@import "./layout/header.scss";
-@import "./layout/body.scss";
-@import "./layout/footer.scss";
+@import"./layout/body.scss";
+@import"./layout/footer.scss";
+@import"./layout/header.scss";
 
-//paginas
-@import "./paginas/home.scss";
-@import "./paginas/aboutus.scss";
-@import "./paginas/contact.scss";
-@import "./paginas/placeyourorder.scss";
-@import "./paginas/promotions.scss";
-@import"./general/meidaquierys.scss";   
+@import"./pages/home.scss";
+@import"./pages/aboutus.scss";
+@import"./pages/contact.scss";
+@import"./pages/placeyourorder.scss";
+@import"./pages/promotions.scss";

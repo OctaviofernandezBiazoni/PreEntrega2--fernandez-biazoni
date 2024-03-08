@@ -22,17 +22,17 @@ footer{
             align-items: center;
             width: 100%;
             background-color: #0F110C;
-            .ig{
-                display: flex;
-                width: 45px;
-                height: 45px;
-                padding: 5px;
-            }
             .wapp{
                 display: flex;
                 width: 45px;
                 height: 45px;
                 margin-left: 10px;
+                padding: 5px;
+            }
+            .ig{
+                display: flex;
+                width: 45px;
+                height: 45px;
                 padding: 5px;
             }
             .firma{
@@ -42,7 +42,6 @@ footer{
                 margin-right: 10px;
                 padding: 5px;
             }
-        }  
+        }
     }
-   
 }
