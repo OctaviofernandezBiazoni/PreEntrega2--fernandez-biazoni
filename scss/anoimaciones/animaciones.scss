@@ -1,0 +1,50 @@
+.btn-primary:hover{
+    background-color: #a20021;
+    color: #a2a7a5;
+}
+.inicio:hover{
+    transform: scale(1.10);
+    transition: all 0.5s  linear;
+    .katanaizquierda{
+        transform:rotateZ(-30deg);
+        transition: all 0.5s  linear;
+    }
+    .katanaderecha{
+        transform: rotateZ(30deg);
+        transition: all 0.5s  linear;
+    }
+}
+@keyframes rotation-katana-left {
+    0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(-90deg);
+      }
+      50% {
+        transform: rotate(-180deg);
+      }
+      75% {
+        transform: rotate(-270deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+}
+@keyframes rotation-katana-right {
+    0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      75% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
