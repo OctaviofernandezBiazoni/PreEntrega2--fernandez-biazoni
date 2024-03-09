@@ -190,6 +190,14 @@ header .container-fluid .header ul {
 }
 header .container-fluid .header ul li {
   list-style-type: none;
+  width: 170px;
+}
+@media (max-width: 576px) {
+  header .container-fluid .header ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 header .container-fluid .header ul .inicio {
   display: flex;
@@ -205,6 +213,10 @@ header .container-fluid .header ul .inicio {
     font-family: poppinsmedium;
     font-size: 24px;
     color: #818884;
+    width: unset;
+    height: unset;
+    text-align: unset;
+    margin: unset;
   }
 }
 header .container-fluid .header ul .inicio .katanaizquierda {
@@ -257,7 +269,7 @@ header .container-fluid .header ul .inicio .katanaderecha {
 header .container-fluid .header ul .link {
   font-family: poppins;
   font-size: 16px;
-  margin: 0% 40px;
+  margin: 0% 20px;
   color: #818884;
   text-align: center;
 }

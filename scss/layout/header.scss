@@ -65,18 +65,30 @@ header{
                 position: fixed;
                
                 li{
-                    width: 150px;
                     list-style-type: none;
+                    width: 170px;
+                    @media(max-width: 576px){
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
                 .inicio{
                     display: flex;
                     justify-content: space-between;
+                    width: 60px;
+                    height: 60px;
                     margin-bottom: 0%;
+                    margin-right: 40px;
                     @media(max-width: 576px){
                         display: flex;
                         font-family: poppinsmedium;
                         font-size: 24px;
                         color: $color-terciario;
+                        width: unset;
+                        height: unset;
+                        text-align: unset;
+                        margin: unset;
                     }
                     .katanaizquierda{
                         height: 50px;
@@ -124,7 +136,7 @@ header{
                 .link{
                     font-family: poppins;
                     font-size: 16px;
-                    margin: 0% 40px;
+                    margin: 0% 20px;
                     color: $color-terciario;
                     text-align: center;
                     @media(max-width: 576px){
