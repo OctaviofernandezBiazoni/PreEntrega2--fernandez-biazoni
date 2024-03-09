@@ -19,10 +19,10 @@ header{
                 display: block;
                 text-align: center;
                 font-size: 21px;
-                color: #A2A7A5;
-                background-color: #A20021;
+                color: $color-terciario;
+                background-color: $color-secundario;
                 border: 4px;
-                border-color: #0F110C;
+                border-color: $color-primario;
                 border-style: solid;
                 font-weight: bold;
                 width: 40px;
@@ -61,7 +61,7 @@ header{
                 width: 100%;
                 padding-left: 5px;
                 padding-right: 5px;
-                background-color: #0F110C;
+                background-color: $color-primario;
                 position: fixed;
                
                 li{
@@ -78,7 +78,7 @@ header{
                         display: flex;
                         font-family: poppinsmedium;
                         font-size: 24px;
-                        color: #A2A7A5;
+                        color: $color-terciario;
                     }
                     .katanaizquierda{
                         height: 50px;
@@ -127,7 +127,7 @@ header{
                     font-family: poppins;
                     font-size: 16px;
                     margin: 0% 40px;
-                    color: #A2A7A5;
+                    color: $color-terciario;
                     text-align: center;
                     @media(max-width: 576px){
                         margin: 0%;
@@ -137,15 +137,14 @@ header{
                     font-family: poppinsmedium;
                     font-size: 20px;
                     text-align: center;
-                    color: #A2A7A5;
+                    color: $color-terciario;
                     text-align: center;
                 }
                 .linkpromos{
                     font-family: poppinsmedium;
                     font-size: 20px;
                     text-align: center;
-                    color: #A2A7A5;
-                    margin-left: 40px;
+                    color: $color-terciario;
                     text-align: center;
                     @media(max-width:576px){
                         margin: unset;
@@ -174,7 +173,7 @@ header{
             justify-content: space-between;
             align-items: center;
             height: 40px;
-            background-color: #0F110C;
+            background-color: $color-primario;
             margin: 0%;
             padding: 0%;
             z-index: 10000000;

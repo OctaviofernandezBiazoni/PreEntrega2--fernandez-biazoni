@@ -140,8 +140,8 @@ header .container-fluid #menu {
     display: block;
     text-align: center;
     font-size: 21px;
-    color: #A2A7A5;
-    background-color: #A20021;
+    color: #818884;
+    background-color: #D4AF37;
     border: 4px;
     border-color: #0F110C;
     border-style: solid;
@@ -204,7 +204,7 @@ header .container-fluid .header ul .inicio {
     display: flex;
     font-family: poppinsmedium;
     font-size: 24px;
-    color: #A2A7A5;
+    color: #818884;
   }
 }
 header .container-fluid .header ul .inicio .katanaizquierda {
@@ -258,7 +258,7 @@ header .container-fluid .header ul .link {
   font-family: poppins;
   font-size: 16px;
   margin: 0% 40px;
-  color: #A2A7A5;
+  color: #818884;
   text-align: center;
 }
 @media (max-width: 576px) {
@@ -270,15 +270,14 @@ header .container-fluid .header ul .link-central {
   font-family: poppinsmedium;
   font-size: 20px;
   text-align: center;
-  color: #A2A7A5;
+  color: #818884;
   text-align: center;
 }
 header .container-fluid .header ul .linkpromos {
   font-family: poppinsmedium;
   font-size: 20px;
   text-align: center;
-  color: #A2A7A5;
-  margin-left: 40px;
+  color: #818884;
   text-align: center;
 }
 @media (max-width: 576px) {
@@ -379,8 +378,8 @@ main.home #h2home .inicio {
   display: flex;
   font-family: poppins;
   font-size: 36px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -451,8 +450,8 @@ main.home .imagenes .tabla {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -469,8 +468,8 @@ main.home .imagenes .tabla {
   display: flex;
   font-family: poppins;
   font-size: 36px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -489,8 +488,8 @@ main.home .imagenes .tabla {
   display: flex;
   font-family: poppins;
   font-size: 36px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -544,8 +543,8 @@ h2.tercero {
   display: flex;
   font-family: poppins;
   font-size: 36px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -567,8 +566,8 @@ h2.tercero {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -614,7 +613,7 @@ h2.tercero {
 #datos #imagenes img {
   height: 80px;
   width: 80px;
-  background-color: #A20021;
+  background-color: #D4AF37;
   margin-bottom: 10px;
   border-radius: 12px;
   border-color: #0F110C;
@@ -625,7 +624,7 @@ h2.tercero {
   #datos #imagenes img {
     height: 60%;
     width: 60px;
-    background-color: #A20021;
+    background-color: #D4AF37;
     margin-bottom: 10px;
     border-radius: 12px;
     border-color: #0F110C;
@@ -643,8 +642,8 @@ h2.tercero {
 }
 #datos h2.ig {
   margin-bottom: 95px;
-  color: #A20021;
-  background-color: #A2A7A5;
+  color: #D4AF37;
+  background-color: #818884;
   border: 4px;
   border-radius: 12px;
   border-style: solid;
@@ -657,8 +656,8 @@ h2.tercero {
 @media (max-width: 576px) {
   #datos h2.ig {
     margin-bottom: 40px;
-    color: #A20021;
-    background-color: #A2A7A5;
+    color: #D4AF37;
+    background-color: #818884;
     border: 4px;
     border-radius: 12px;
     border-style: solid;
@@ -670,26 +669,26 @@ h2.tercero {
   }
 }
 #datos h2.phone {
-  color: #A20021;
-  background-color: #A2A7A5;
+  color: #D4AF37;
+  background-color: #818884;
   border: 4px;
   border-radius: 12px;
   border-style: solid;
   border-color: #0F110C;
-  font-family: poppns;
+  font-family: poppins;
   text-align: center;
   width: 300px;
   font-size: 20px;
 }
 @media (max-width: 576px) {
   #datos h2.phone {
-    color: #A20021;
-    background-color: #A2A7A5;
+    color: #D4AF37;
+    background-color: #818884;
     border: 4px;
     border-radius: 12px;
     border-style: solid;
     border-color: #0F110C;
-    font-family: poppns;
+    font-family: poppins;
     text-align: center;
     width: 200px;
     font-size: 20px;
@@ -710,9 +709,9 @@ h2.carousel {
   border: 4px;
   border-style: solid;
   border-color: #0F110C;
-  background-color: #A20021;
+  background-color: #D4AF37;
   font-family: poppinsmedium;
-  color: #A2A7A5;
+  color: #818884;
   width: 290px;
 }
 @media (max-width: 576px) {
@@ -722,9 +721,9 @@ h2.carousel {
     border: 4px;
     border-style: solid;
     border-color: #0F110C;
-    background-color: #A20021;
+    background-color: #D4AF37;
     font-family: poppinsmedium;
-    color: #A2A7A5;
+    color: #818884;
     width: 290px;
   }
 }
@@ -733,7 +732,7 @@ h2.carousel {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #A20021;
+  background-color: #D4AF37;
   margin: 0% 428px;
   margin-bottom: 40px;
   width: 600px;
@@ -752,8 +751,8 @@ h2.carousel {
   height: 400px;
 }
 .card .btn-primary {
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border-color: unset;
 }
 @media (max-width: 576px) {
@@ -761,7 +760,7 @@ h2.carousel {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #A20021;
+    background-color: #D4AF37;
     margin: 0% 70px;
     margin-bottom: 40px;
     width: 400px;
@@ -787,8 +786,8 @@ h2.carousel {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #A2A7A5;
-  color: #A20021;
+  background-color: #818884;
+  color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
@@ -811,8 +810,8 @@ h2.promo1 {
   justify-content: center;
   font-family: poppins;
   font-size: 36px;
-  color: #A20021;
-  background-color: #A2A7A5;
+  color: #D4AF37;
+  background-color: #818884;
   border: 4px;
   border-style: solid;
   border-color: #0F110C;
@@ -827,8 +826,8 @@ h2.promo2 {
   justify-content: center;
   font-family: poppins;
   font-size: 36px;
-  color: #A20021;
-  background-color: #A2A7A5;
+  color: #D4AF37;
+  background-color: #818884;
   border: 4px;
   border-style: solid;
   border-color: #0F110C;
@@ -843,8 +842,8 @@ h2.promo3 {
   justify-content: center;
   font-family: poppins;
   font-size: 36px;
-  color: #A20021;
-  background-color: #A2A7A5;
+  color: #D4AF37;
+  background-color: #818884;
   border: 4px;
   border-style: solid;
   border-color: #0F110C;
@@ -993,8 +992,8 @@ div.promo3 img {
 }
 
 .btn-primary:hover {
-  background-color: #a20021;
-  color: #a2a7a5;
+  background-color: #0F110C;
+  color: #D4AF37;
 }
 
 .inicio:hover {

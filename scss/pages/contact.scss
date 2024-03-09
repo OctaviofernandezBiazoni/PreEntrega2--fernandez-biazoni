@@ -11,10 +11,10 @@
         align-items: center;
         width: 400px;
         height: 60px;
-        background-color: #A2A7A5;
-        color: #A20021;
+        background-color: $color-terciario;
+        color: $color-secundario;
         border: 4px;
-        border-color: #0F110C;
+        border-color: $color-primario;
         border-style: solid;
     }
 }
@@ -51,19 +51,19 @@
         img{
             height: 80px;
             width: 80px;
-            background-color: #A20021;
+            background-color: $color-secundario;
             margin-bottom: 10px;
             border-radius: 12px;
-            border-color: #0F110C;
+            border-color: $color-primario;
             border: 4px;
             border-style: solid;
             @media(max-width: 576px){
                 height: 60%;
                 width: 60px;
-                background-color: #A20021;
+                background-color: $color-secundario;
                 margin-bottom: 10px;
                 border-radius: 12px;
-                border-color: #0F110C;
+                border-color: $color-primario;
                 border: 4px;
                 border-style: solid;
             }
@@ -77,24 +77,24 @@
     }
     h2.ig{
         margin-bottom: 95px;
-        color: #A20021;
-        background-color: #A2A7A5;
+        color: $color-secundario;
+        background-color: $color-terciario;
         border: 4px;
         border-radius: 12px;
         border-style: solid;
-        border-color: #0F110C;
+        border-color: $color-primario;
         font-family: poppins;
         text-align: center;
         width: 300px;
         font-size: 20px;
         @media(max-width: 576px){
             margin-bottom: 40px;
-        color: #A20021;
-        background-color: #A2A7A5;
+        color: $color-secundario;
+        background-color: $color-terciario;
         border: 4px;
         border-radius: 12px;
         border-style: solid;
-        border-color: #0F110C;
+        border-color: $color-primario;
         font-family: poppins;
         text-align: center;
         width: 200px;
@@ -102,24 +102,24 @@
         }
     }
     h2.phone{
-        color: #A20021;
-        background-color: #A2A7A5;
+        color: $color-secundario;
+        background-color: $color-terciario;
         border: 4px;
         border-radius: 12px;
         border-style: solid;
-        border-color: #0F110C;
-        font-family: poppns;
+        border-color: $color-primario;
+        font-family: poppins;
         text-align: center;
         width: 300px;
         font-size: 20px;
         @media(max-width: 576px){
-            color: #A20021;
-            background-color: #A2A7A5;
+            color: $color-secundario;
+            background-color: $color-terciario;
             border: 4px;
             border-radius: 12px;
             border-style: solid;
-            border-color: #0F110C;
-            font-family: poppns;
+            border-color: $color-primario;
+            font-family: poppins;
             text-align: center;
             width: 200px;
             font-size: 20px;  

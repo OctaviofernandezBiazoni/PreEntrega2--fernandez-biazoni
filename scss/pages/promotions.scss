@@ -9,10 +9,10 @@
         align-items: center;
         width: 400px;
         height: 60px;
-        background-color: #A2A7A5;
-        color: #A20021;
+        background-color: $color-terciario;
+        color: $color-secundario;
         border: 4px;
-        border-color: #0F110C;
+        border-color: $color-primario;
         border-style: solid;
     
     }
@@ -32,11 +32,11 @@ h2.promo1{
     justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: #A20021;
-    background-color: #A2A7A5;
+    color: $color-secundario;
+    background-color: $color-terciario;
     border: 4px;
     border-style: solid;
-    border-color: #0F110C;
+    border-color: $color-primario;
     border-left: unset;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -47,11 +47,11 @@ h2.promo2{
     justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: #A20021;
-    background-color: #A2A7A5;
+    color: $color-secundario;
+    background-color: $color-terciario;
     border: 4px;
     border-style: solid;
-    border-color: #0F110C;
+    border-color: $color-primario;
     border-right: unset;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -62,11 +62,11 @@ h2.promo3{
     justify-content: center;
     font-family: poppins;
     font-size: 36px;
-    color: #A20021;
-    background-color: #A2A7A5;
+    color: $color-secundario;
+    background-color: $color-terciario;
     border: 4px;
     border-style: solid;
-    border-color: #0F110C;
+    border-color: $color-primario;
     border-left: unset;
     margin-top: 5px;
     margin-bottom: 5px;

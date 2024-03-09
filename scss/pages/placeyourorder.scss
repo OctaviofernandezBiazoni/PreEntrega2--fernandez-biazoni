@@ -3,20 +3,20 @@ h2.carousel{
     justify-content: center;
     border: 4px;
     border-style: solid;
-    border-color: #0F110C;
-    background-color: #A20021;
+    border-color: $color-primario;
+    background-color: $color-secundario;
     font-family: poppinsmedium;
-    color: #A2A7A5;
+    color: $color-terciario;
     width: 290px;
     @media(max-width: 576px){
         display: flex;
         justify-content: center;
         border: 4px;
         border-style: solid;
-        border-color: #0F110C;
-        background-color: #A20021;
+        border-color: $color-primario;
+        background-color: $color-secundario;
         font-family: poppinsmedium;
-        color: #A2A7A5;
+        color: $color-terciario;
         width: 290px;
     }
 }
@@ -24,7 +24,7 @@ h2.carousel{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #A20021;
+    background-color: $color-secundario;
     margin: 0% 428px;
     margin-bottom: 40px;
     width: 600px;
@@ -42,8 +42,8 @@ h2.carousel{
         height: 400px
     }
     .btn-primary{
-        background-color: #A2A7A5;
-        color: #A20021;
+        background-color: $color-terciario;
+        color: $color-secundario;
         border-color: unset;
         
     }
@@ -51,7 +51,7 @@ h2.carousel{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #A20021;
+        background-color: $color-secundario;
         margin: 0% 70px;
         margin-bottom: 40px;
         width: 400px;
