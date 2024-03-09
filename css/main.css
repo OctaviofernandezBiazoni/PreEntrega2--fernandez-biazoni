@@ -150,7 +150,7 @@ header .container-fluid #menu {
     height: 40px;
     position: absolute;
     top: 0%;
-    left: 47%;
+    left: 10%;
   }
 }
 header .container-fluid .header {
@@ -175,7 +175,7 @@ header .container-fluid .header {
     z-index: 10000000000;
   }
 }
-header .container-fluid .header ul {
+header .container-fluid .header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -188,18 +188,37 @@ header .container-fluid .header ul {
   background-color: #0F110C;
   position: fixed;
 }
-header .container-fluid .header ul li {
+header .container-fluid .header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0%;
+  height: 70px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #0F110C;
+  position: fixed;
+}
+header .container-fluid .header nav ul li {
   list-style-type: none;
   width: 170px;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul li {
+  header .container-fluid .header nav ul li {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 45px;
   }
 }
-header .container-fluid .header ul .inicio {
+@media (max-width: 576px) {
+  header .container-fluid .header nav ul li a {
+    text-align: left;
+  }
+}
+header .container-fluid .header nav ul .inicio {
   display: flex;
   justify-content: space-between;
   width: 60px;
@@ -208,18 +227,17 @@ header .container-fluid .header ul .inicio {
   margin-right: 40px;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .inicio {
+  header .container-fluid .header nav ul .inicio {
     display: flex;
     font-family: poppinsmedium;
     font-size: 24px;
     color: #818884;
     width: unset;
     height: unset;
-    text-align: unset;
     margin: unset;
   }
 }
-header .container-fluid .header ul .inicio .katanaizquierda {
+header .container-fluid .header nav ul .inicio .katanaizquierda {
   height: 50px;
   width: 50px;
   margin-bottom: 0%;
@@ -231,26 +249,26 @@ header .container-fluid .header ul .inicio .katanaizquierda {
   animation-delay: 20s;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .inicio .katanaizquierda {
+  header .container-fluid .header nav ul .inicio .katanaizquierda {
     display: none;
   }
 }
-header .container-fluid .header ul .inicio .text {
+header .container-fluid .header nav ul .inicio .text {
   display: none;
   margin: 0%;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .inicio .text {
+  header .container-fluid .header nav ul .inicio .text {
     display: block;
-    text-align: center;
+    text-align: left;
   }
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .inicio .logo {
+  header .container-fluid .header nav ul .inicio .logo {
     display: none;
   }
 }
-header .container-fluid .header ul .inicio .katanaderecha {
+header .container-fluid .header nav ul .inicio .katanaderecha {
   height: 50px;
   width: 50px;
   margin-bottom: 0%;
@@ -262,11 +280,11 @@ header .container-fluid .header ul .inicio .katanaderecha {
   animation-direction: normal;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .inicio .katanaderecha {
+  header .container-fluid .header nav ul .inicio .katanaderecha {
     display: none;
   }
 }
-header .container-fluid .header ul .link {
+header .container-fluid .header nav ul .link {
   font-family: poppins;
   font-size: 16px;
   margin: 0% 20px;
@@ -274,18 +292,12 @@ header .container-fluid .header ul .link {
   text-align: center;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .link {
+  header .container-fluid .header nav ul .link {
     margin: 0%;
+    text-align: left;
   }
 }
-header .container-fluid .header ul .link-central {
-  font-family: poppinsmedium;
-  font-size: 20px;
-  text-align: center;
-  color: #818884;
-  text-align: center;
-}
-header .container-fluid .header ul .linkpromos {
+header .container-fluid .header nav ul .link-central {
   font-family: poppinsmedium;
   font-size: 20px;
   text-align: center;
@@ -293,18 +305,31 @@ header .container-fluid .header ul .linkpromos {
   text-align: center;
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul .linkpromos {
+  header .container-fluid .header nav ul .link-central {
+    text-align: left;
+  }
+}
+header .container-fluid .header nav ul .linkpromos {
+  font-family: poppinsmedium;
+  font-size: 20px;
+  text-align: center;
+  color: #818884;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  header .container-fluid .header nav ul .linkpromos {
     margin: unset;
+    text-align: left;
   }
 }
 @media (max-width: 576px) {
-  header .container-fluid .header ul {
+  header .container-fluid .header nav ul {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-items: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
     text-align: center;
-    width: 100%;
+    width: 25%;
     height: 300px;
     margin: 0%;
     padding: 10px 0%;
@@ -319,7 +344,7 @@ header .container-fluid .header ul .linkpromos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     height: 40px;
     background-color: #0F110C;
     margin: 0%;
@@ -382,13 +407,14 @@ main.home {
 main.home #h2home {
   display: flex;
   justify-content: center;
+  margin: 0%;
 }
 main.home #h2home .inicio {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  display: flex;
   font-family: poppins;
+  text-align: center;
   font-size: 36px;
   background-color: #818884;
   color: #D4AF37;
@@ -397,6 +423,15 @@ main.home #h2home .inicio {
   border-style: solid;
   width: 500px;
   height: 150px;
+  margin: 0%;
+}
+@media (max-width: 576px) {
+  main.home #h2home .inicio {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+  }
 }
 @media (max-width: 576px) {
   main.home #h2home {

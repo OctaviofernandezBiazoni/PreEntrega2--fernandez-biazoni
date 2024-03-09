@@ -29,7 +29,7 @@ header{
                 height: 40px;
                 position: absolute;
                 top: 0%;
-                left: 47%;
+                left: 10%;
             }
         }
         .header{
@@ -51,129 +51,153 @@ header{
                 position:unset;
                 z-index: 10000000000;
             }
-            ul{
+            nav{
                 display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 0%;
-                height: 70px;
-                width: 100%;
-                padding-left: 5px;
-                padding-right: 5px;
-                background-color: $color-primario;
-                position: fixed;
-               
-                li{
-                    list-style-type: none;
-                    width: 170px;
-                    @media(max-width: 576px){
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                }
-                .inicio{
-                    display: flex;
+                    flex-direction: row;
                     justify-content: space-between;
-                    width: 60px;
-                    height: 60px;
+                    align-items: center;
                     margin-bottom: 0%;
-                    margin-right: 40px;
-                    @media(max-width: 576px){
-                        display: flex;
-                        font-family: poppinsmedium;
-                        font-size: 24px;
-                        color: $color-terciario;
-                        width: unset;
-                        height: unset;
-                        text-align: unset;
-                        margin: unset;
-                    }
-                    .katanaizquierda{
-                        height: 50px;
-                        width: 50px;
-                        margin-bottom: 0%;
-                        animation-name: rotation-katana-left;
-                        animation-duration: 4s;
-                        animation-timing-function: linear;
-                        animation-iteration-count: infinite;
-                        animation-direction: normal;
-                        animation-delay: 20s;
-                        @media(max-width: 576px){
-                            display: none;
-                        }
-                    }
-                    .text{
-                        display:none;
-                        margin: 0%;
-                        @media(max-width: 576px){
-                            display: block;
-                            text-align: center;
-                        }
-                    }
-                    .logo{
-                        @media(max-width:576px){
-                            display: none;
-                        }
-                    }
-                    .katanaderecha{
-                        height: 50px;
-                        width: 50px;
-                        margin-bottom: 0%;
-                        animation-name: rotation-katana-right;
-                        animation-delay: 20s;
-                        animation-duration: 4s;
-                        animation-timing-function: linear;
-                        animation-iteration-count: 150;
-                        animation-direction: normal;
-                        
-                        @media(max-width: 576px){
-                            display: none;
-                        }
-                    }
-                }
-                .link{
-                    font-family: poppins;
-                    font-size: 16px;
-                    margin: 0% 20px;
-                    color: $color-terciario;
-                    text-align: center;
-                    @media(max-width: 576px){
-                        margin: 0%;
-                    }
-                }
-                .link-central{
-                    font-family: poppinsmedium;
-                    font-size: 20px;
-                    text-align: center;
-                    color: $color-terciario;
-                    text-align: center;
-                }
-                .linkpromos{
-                    font-family: poppinsmedium;
-                    font-size: 20px;
-                    text-align: center;
-                    color: $color-terciario;
-                    text-align: center;
-                    @media(max-width:576px){
-                        margin: unset;
-                    }
-                }
-                @media(max-width:576px){
+                    height: 70px;
+                    width: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    background-color: $color-primario;
+                    position: fixed;
+                ul{
                     display: flex;
-                    flex-direction: column;
-                    align-content: center;
-                    justify-items: space-between;
-                    text-align: center;
-                    width: 100%; 
-                    height: 300px;
-                    margin: 0%;
-                    padding: 10px 0%;
-                    position: unset;
-                    z-index: 100000000000;
-                } 
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 0%;
+                    height: 70px;
+                    width: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    background-color: $color-primario;
+                    position: fixed;
+                   
+                    li{
+                        list-style-type: none;
+                        width: 170px;
+                        @media(max-width: 576px){
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-start ;
+                            margin-left: 45px;
+                        }
+                        a{
+                            @media(max-width: 576px){
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .inicio{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 60px;
+                        height: 60px;
+                        margin-bottom: 0%;
+                        margin-right: 40px;
+                        @media(max-width: 576px){
+                            display: flex;
+                            font-family: poppinsmedium;
+                            font-size: 24px;
+                            color: $color-terciario;
+                            width: unset;
+                            height: unset;
+                            margin: unset;
+                        }
+                        .katanaizquierda{
+                            height: 50px;
+                            width: 50px;
+                            margin-bottom: 0%;
+                            animation-name: rotation-katana-left;
+                            animation-duration: 4s;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: normal;
+                            animation-delay: 20s;
+                            @media(max-width: 576px){
+                                display: none;
+                            }
+                        }
+                        .text{
+                            display:none;
+                            margin: 0%;
+                            @media(max-width: 576px){
+                                display: block;
+                                text-align: left;
+                            }
+                        }
+                        .logo{
+                            @media(max-width:576px){
+                                display: none;
+                            }
+                        }
+                        .katanaderecha{
+                            height: 50px;
+                            width: 50px;
+                            margin-bottom: 0%;
+                            animation-name: rotation-katana-right;
+                            animation-delay: 20s;
+                            animation-duration: 4s;
+                            animation-timing-function: linear;
+                            animation-iteration-count: 150;
+                            animation-direction: normal;
+                            
+                            @media(max-width: 576px){
+                                display: none;
+                            }
+                        }
+                    }
+                    .link{
+                        font-family: poppins;
+                        font-size: 16px;
+                        margin: 0% 20px;
+                        color: $color-terciario;
+                        text-align: center;
+                        @media(max-width: 576px){
+                            margin: 0%;
+                            text-align: left;
+                        }
+                    }
+                    .link-central{
+                        font-family: poppinsmedium;
+                        font-size: 20px;
+                        text-align: center;
+                        color: $color-terciario;
+                        text-align: center;
+                        @media(max-width: 576px){
+                            text-align: left;
+                        }
+                    }
+                    .linkpromos{
+                        font-family: poppinsmedium;
+                        font-size: 20px;
+                        text-align: center;
+                        color: $color-terciario;
+                        text-align: center;
+                        @media(max-width:576px){
+                            margin: unset;
+                            text-align: left;
+                        }
+                    }
+                    @media(max-width:576px){
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        text-align: center;
+                        width: 25%; 
+                        height: 300px;
+                        margin: 0%;
+                        padding: 10px 0%;
+                        position: unset;
+                        z-index: 100000000000;
+                    } 
+                }
             }
+            
         }
         @media(max-width:576px){
             position: fixed;
@@ -181,7 +205,7 @@ header{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             height: 40px;
             background-color: $color-primario;
             margin: 0%;
