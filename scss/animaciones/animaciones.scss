@@ -1,6 +1,8 @@
 .btn-primary:hover{
-    background-color: $color-primario;
+    background-color: $color-terciario;
     color: $color-secundario;
+    transform: scale(1.10);
+    transition: all 0.2s ease;
 }
 a.inicio:hover{
     transform: scale(1.10);
