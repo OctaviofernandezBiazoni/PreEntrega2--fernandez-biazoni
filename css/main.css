@@ -395,8 +395,8 @@ main.home #h2home .inicio {
   border: 4px;
   border-color: #0F110C;
   border-style: solid;
-  width: 400px;
-  height: 60px;
+  width: 500px;
+  height: 150px;
 }
 @media (max-width: 576px) {
   main.home #h2home {
@@ -1008,15 +1008,15 @@ div.promo3 img {
   color: #D4AF37;
 }
 
-.inicio:hover {
+a.inicio:hover {
   transform: scale(1.1);
   transition: all 0.5s linear;
 }
-.inicio:hover .katanaizquierda {
+a.inicio:hover .katanaizquierda {
   transform: rotateZ(-30deg);
   transition: all 0.5s linear;
 }
-.inicio:hover .katanaderecha {
+a.inicio:hover .katanaderecha {
   transform: rotateZ(30deg);
   transition: all 0.5s linear;
 }
