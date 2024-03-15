@@ -1,83 +1,106 @@
-main{
+main {
     margin: 0%;
     padding: 0%;
     grid-area: main;
     height: 100%;
     width: 100%;
 }
-main.home{
+
+main.home {
     margin: auto;
     text-align: center;
-    #h2home{
-        display: flex;
-        justify-content: center;
-        margin: 0%;
-        .inicio{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            font-family: poppins;
-            text-align: center;
-            font-size: 36px;
-            background-color: $color-terciario;
-            color: $color-secundario;
-            border: 4px;
-            border-color: $color-primario;
-            border-style: solid;
-            width: 500px;
-            height: 150px;
-            margin: 0%;
-            @media(max-width: 576px){
-                display: flex;
-                flex-direction: column;
-                width: 400px;
-                height: 200px;
-            }
-        }
-        @media(max-width: 576px){
-            display: flex;
-            justify-content: center;
-        }
-    }
-    .home{
-        @media(max-width: 576px){
-            height: 300px;
-            width: 300px;
-            pointer-events: none;
-        }
-        pointer-events: none;
+
+   /* .inicio {
         display: flex;
         flex-direction: row;
-        margin: auto;
-        margin-bottom: 30px;
-        height: 500px;
-        width: 700px
+        justify-content: center;
+        font-family: poppins;
+        text-align: center;
+        font-size: 36px;
+        background-color: $color-terciario;
+        color: $color-secundario;
+        border: 4px;
+        border-color: $color-primario;
+        border-style: solid;
+        width: 500px;
+        height: 150px;
+        margin: 0%;
+
+        @media(max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 200px;
+        }
+
+        @media(max-width: 576px) {
+            display: flex;
+            justify-content: center;
+        }
+    }*/
+    .video{
+        position: relative;
+        z-index: -10000000;
+        .h1 {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            h1 {
+                width: 60%;
+                color: white;
+                font-family: poppins;
+                text-align: center;
+                font-size: 36px;
+            }
+        }
+    
+        .home {
+            @media(max-width: 576px) {
+                pointer-events: none;
+            }
+    
+            pointer-events: none;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            margin-bottom: 30px;
+            height: 500px;
+            width: 95%;
+        }
     }
-    .imagenes{
-            .rolls{
-                height: 300px;
-                width: 400px;
-                margin-bottom: 60px;
-                @media(max-width: 576px){
-                    height: 200px;
-                    width: 300px;
-                }
+    
+
+    .imagenes {
+        .rolls {
+            height: 80%;
+            width: 80%;
+            margin-bottom: 60px;
+
+            @media(max-width: 576px) {
+                height: 200px;
+                width: 300px;
             }
-            .tabla{
-                height: 300px;
-                width: 400px;
-                margin-bottom: 60px;
-                @media(max-width: 576px){
-                    height: 200px;
-                    width: 300px;
-                }
+        }
+
+        .tabla {
+            height: 80%;
+            width: 80%;
+            margin-bottom: 60px;
+
+            @media(max-width: 576px) {
+                height: 200px;
+                width: 300px;
             }
-        @media(max-width: 576px){
+        }
+
+        @media(max-width: 576px) {
             display: flex;
             flex-direction: column;
             align-content: center;
-        }    
+        }
     }
 }
-    
-    

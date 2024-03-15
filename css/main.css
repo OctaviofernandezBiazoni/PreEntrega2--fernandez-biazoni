@@ -23,10 +23,7 @@ body {
   margin: 0%;
   padding: 0%;
   height: 100%;
-  background-image: url(../resources/images/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: black;
   padding: 0%;
   margin: 0%;
 }
@@ -123,6 +120,7 @@ header {
   position: fixed;
   margin: 0%;
   padding: 0%;
+  z-index: 10000000000000000000000;
 }
 header .container-fluid {
   display: flex;
@@ -231,7 +229,7 @@ header .container-fluid .header nav ul .inicio {
     display: flex;
     font-family: poppinsmedium;
     font-size: 24px;
-    color: #818884;
+    color: #D4AF37;
     width: unset;
     height: unset;
     margin: unset;
@@ -276,7 +274,7 @@ header .container-fluid .header nav ul .inicio .katanaderecha {
   animation-delay: 20s;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-iteration-count: 150;
+  animation-iteration-count: infinite;
   animation-direction: normal;
 }
 @media (max-width: 576px) {
@@ -288,7 +286,7 @@ header .container-fluid .header nav ul .link {
   font-family: poppins;
   font-size: 16px;
   margin: 0% 20px;
-  color: #818884;
+  color: #D4AF37;
   text-align: center;
 }
 @media (max-width: 576px) {
@@ -301,7 +299,7 @@ header .container-fluid .header nav ul .link-central {
   font-family: poppinsmedium;
   font-size: 20px;
   text-align: center;
-  color: #818884;
+  color: #D4AF37;
   text-align: center;
 }
 @media (max-width: 576px) {
@@ -313,7 +311,7 @@ header .container-fluid .header nav ul .linkpromos {
   font-family: poppinsmedium;
   font-size: 20px;
   text-align: center;
-  color: #818884;
+  color: #D4AF37;
   text-align: center;
 }
 @media (max-width: 576px) {
@@ -403,61 +401,72 @@ main {
 main.home {
   margin: auto;
   text-align: center;
+  /* .inicio {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       font-family: poppins;
+       text-align: center;
+       font-size: 36px;
+       background-color: $color-terciario;
+       color: $color-secundario;
+       border: 4px;
+       border-color: $color-primario;
+       border-style: solid;
+       width: 500px;
+       height: 150px;
+       margin: 0%;
+
+       @media(max-width: 576px) {
+           display: flex;
+           flex-direction: column;
+           width: 400px;
+           height: 200px;
+       }
+
+       @media(max-width: 576px) {
+           display: flex;
+           justify-content: center;
+       }
+   }*/
 }
-main.home #h2home {
+main.home .video {
+  position: relative;
+  z-index: -10000000;
+}
+main.home .video .h1 {
+  width: 100%;
+  position: absolute;
   display: flex;
   justify-content: center;
-  margin: 0%;
+  align-items: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
-main.home #h2home .inicio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+main.home .video .h1 h1 {
+  width: 60%;
+  color: white;
   font-family: poppins;
   text-align: center;
   font-size: 36px;
-  background-color: #818884;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
-  width: 500px;
-  height: 150px;
-  margin: 0%;
 }
-@media (max-width: 576px) {
-  main.home #h2home .inicio {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 200px;
-  }
-}
-@media (max-width: 576px) {
-  main.home #h2home {
-    display: flex;
-    justify-content: center;
-  }
-}
-main.home .home {
+main.home .video .home {
   pointer-events: none;
   display: flex;
   flex-direction: row;
   margin: auto;
   margin-bottom: 30px;
   height: 500px;
-  width: 700px;
+  width: 95%;
 }
 @media (max-width: 576px) {
-  main.home .home {
-    height: 300px;
-    width: 300px;
+  main.home .video .home {
     pointer-events: none;
   }
 }
 main.home .imagenes .rolls {
-  height: 300px;
-  width: 400px;
+  height: 80%;
+  width: 80%;
   margin-bottom: 60px;
 }
 @media (max-width: 576px) {
@@ -467,8 +476,8 @@ main.home .imagenes .rolls {
   }
 }
 main.home .imagenes .tabla {
-  height: 300px;
-  width: 400px;
+  height: 80%;
+  width: 80%;
   margin-bottom: 60px;
 }
 @media (max-width: 576px) {
@@ -488,115 +497,48 @@ main.home .imagenes .tabla {
 #h1aboutus {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
 }
-#h1aboutus .aboutus {
-  font-family: sushibar;
-  font-size: 48px;
+#h1aboutus h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 60px;
-  background-color: #818884;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
+  text-align: center;
+  border: 4px solid #818884;
+  background-color: #D4AF37;
+  color: #0F110C;
+  font-family: sushibar;
 }
 
-#h2aboutus {
+.contenido h2 {
   display: flex;
-  justify-content: left;
-}
-#h2aboutus .primero {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  display: flex;
-  font-family: poppins;
-  font-size: 36px;
-  background-color: #818884;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
-  width: 400px;
-  height: 60px;
+  align-items: center;
+  text-align: center;
+  border: 4px solid #818884;
+  background-color: #D4AF37;
+  color: #0F110C;
+  font-family: sushibar;
 }
-
-#h2aboutussegundo {
-  display: flex;
-  justify-content: right;
-}
-#h2aboutussegundo .segundo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  display: flex;
+.contenido p {
   font-family: poppins;
-  font-size: 36px;
-  background-color: #818884;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
-  width: 400px;
-  height: 60px;
-}
-
-p.primero {
-  display: flex;
-  justify-content: left;
-  font-family: poppins;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 20px;
-  padding: 10px;
-  width: 90%;
+  text-align: left;
 }
-
-p.segundo {
-  display: flex;
-  justify-content: right;
-  font-family: poppins;
-  font-size: 15px;
-  color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 20px;
-  padding: 10px;
-  width: 90%;
+@media (max-width: 576px) {
+  .contenido p {
+    text-align: center;
+  }
 }
-
-p.tercero {
-  display: flex;
-  justify-content: left;
-  font-family: poppins;
-  font-size: 15px;
-  color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 20px;
-  padding: 10px;
-  width: 90%;
-}
-
-h2.tercero {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  display: flex;
-  font-family: poppins;
-  font-size: 36px;
-  background-color: #818884;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
-  width: 400px;
-  height: 60px;
+@media (max-width: 576px) {
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 #h1contacto {
@@ -627,14 +569,12 @@ h2.tercero {
 #maps .maps {
   display: flex;
   margin: 0% 30px;
-  width: 1400px;
+  width: 95%;
 }
 @media (max-width: 576px) {
   #maps .maps {
     display: flex;
     margin: 0% 30px;
-    width: 500px;
-    height: 500px;
   }
 }
 @media (max-width: 576px) {
@@ -648,7 +588,7 @@ h2.tercero {
 #datos {
   margin: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 #datos #imagenes {
@@ -750,23 +690,29 @@ h2.tercero {
   }
 }
 
-h2.carousel {
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1000000000000000000000000000000000000;
+}
+.tittle h2.carousel {
   display: flex;
   justify-content: center;
   border: 4px solid #0F110C;
   background-color: #D4AF37;
-  font-family: poppinsmedium;
-  color: #818884;
+  font-family: sushibar;
+  color: white;
   width: 290px;
 }
 @media (max-width: 576px) {
-  h2.carousel {
+  .tittle h2.carousel {
     display: flex;
     justify-content: center;
     border: 4px solid #0F110C;
     background-color: #D4AF37;
     font-family: poppinsmedium;
-    color: #818884;
+    color: white;
     width: 290px;
   }
 }
@@ -781,6 +727,7 @@ h2.carousel {
   margin-bottom: 40px;
   width: 600px;
   font-family: poppins;
+  z-index: -100000000000000000000;
 }
 .card h5 {
   font-family: poppins;
@@ -790,9 +737,7 @@ h2.carousel {
 }
 .card .card-img-top {
   margin-top: 20px;
-  display: flex;
-  width: 500px;
-  height: 400px;
+  object-fit: cover;
 }
 .card .btn-primary {
   background-color: #0F110C;
@@ -852,7 +797,7 @@ h2.carousel {
 h2.promo1 {
   display: flex;
   justify-content: center;
-  font-family: poppins;
+  font-family: sushibar;
   font-size: 36px;
   color: #D4AF37;
   background-color: #818884;
@@ -868,7 +813,7 @@ h2.promo1 {
 h2.promo2 {
   display: flex;
   justify-content: center;
-  font-family: poppins;
+  font-family: sushibar;
   font-size: 36px;
   color: #D4AF37;
   background-color: #818884;
@@ -884,7 +829,7 @@ h2.promo2 {
 h2.promo3 {
   display: flex;
   justify-content: center;
-  font-family: poppins;
+  font-family: sushibar;
   font-size: 36px;
   color: #D4AF37;
   background-color: #818884;
@@ -899,7 +844,6 @@ h2.promo3 {
 
 div.promo1 {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
 }
 div.promo1 p {
@@ -945,7 +889,6 @@ div.promo1 img {
 
 div.promo2 {
   display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
 }
 div.promo2 p {
@@ -991,7 +934,6 @@ div.promo2 img {
 
 div.promo3 {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
 }
 div.promo3 p {

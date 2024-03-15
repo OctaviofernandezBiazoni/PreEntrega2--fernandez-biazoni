@@ -6,6 +6,7 @@ header{
     position: fixed;
     margin: 0%;
     padding: 0%;
+    z-index: 10000000000000000000000;
     .container-fluid{
         display: flex;
         margin: 0%;
@@ -102,7 +103,7 @@ header{
                             display: flex;
                             font-family: poppinsmedium;
                             font-size: 24px;
-                            color: $color-terciario;
+                            color: $color-secundario;
                             width: unset;
                             height: unset;
                             margin: unset;
@@ -142,7 +143,7 @@ header{
                             animation-delay: 20s;
                             animation-duration: 4s;
                             animation-timing-function: linear;
-                            animation-iteration-count: 150;
+                            animation-iteration-count: infinite;
                             animation-direction: normal;
                             
                             @media(max-width: 576px){
@@ -154,7 +155,7 @@ header{
                         font-family: poppins;
                         font-size: 16px;
                         margin: 0% 20px;
-                        color: $color-terciario;
+                        color: $color-secundario;
                         text-align: center;
                         @media(max-width: 576px){
                             margin: 0%;
@@ -165,7 +166,7 @@ header{
                         font-family: poppinsmedium;
                         font-size: 20px;
                         text-align: center;
-                        color: $color-terciario;
+                        color: $color-secundario;
                         text-align: center;
                         @media(max-width: 576px){
                             text-align: left;
@@ -175,7 +176,7 @@ header{
                         font-family: poppinsmedium;
                         font-size: 20px;
                         text-align: center;
-                        color: $color-terciario;
+                        color: $color-secundario;
                         text-align: center;
                         @media(max-width:576px){
                             margin: unset;

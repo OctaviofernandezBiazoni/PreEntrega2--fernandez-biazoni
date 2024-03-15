@@ -24,12 +24,10 @@
     .maps{
         display: flex;
         margin: 0% 30px;
-        width: 1400px;
+        width: 95%;
         @media(max-width: 576px){
             display: flex;
         margin: 0% 30px;
-        width: 500px;
-        height: 500px;
         }
     }
     @media(max-width: 576px){
@@ -41,7 +39,7 @@
 #datos{
     margin: 60px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     #imagenes{
         display: flex;
