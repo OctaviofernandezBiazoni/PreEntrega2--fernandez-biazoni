@@ -138,7 +138,7 @@ header .container-fluid #menu {
     display: block;
     text-align: center;
     font-size: 21px;
-    color: #818884;
+    color: #F8F8FF;
     background-color: #D4AF37;
     border: 4px;
     border-color: #0F110C;
@@ -505,7 +505,7 @@ main.home .imagenes .tabla {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 4px solid #818884;
+  border: 4px solid #F8F8FF;
   background-color: #D4AF37;
   color: #0F110C;
   font-family: sushibar;
@@ -516,7 +516,7 @@ main.home .imagenes .tabla {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 4px solid #818884;
+  border: 4px solid #F8F8FF;
   background-color: #D4AF37;
   color: #0F110C;
   font-family: sushibar;
@@ -555,7 +555,7 @@ main.home .imagenes .tabla {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #818884;
+  background-color: #F8F8FF;
   color: #D4AF37;
   border: 4px;
   border-color: #0F110C;
@@ -630,7 +630,7 @@ main.home .imagenes .tabla {
 #datos h2.ig {
   margin-bottom: 95px;
   color: #D4AF37;
-  background-color: #818884;
+  background-color: #F8F8FF;
   border: 4px;
   border-radius: 12px;
   border-style: solid;
@@ -644,7 +644,7 @@ main.home .imagenes .tabla {
   #datos h2.ig {
     margin-bottom: 40px;
     color: #D4AF37;
-    background-color: #818884;
+    background-color: #F8F8FF;
     border: 4px;
     border-radius: 12px;
     border-style: solid;
@@ -657,7 +657,7 @@ main.home .imagenes .tabla {
 }
 #datos h2.phone {
   color: #D4AF37;
-  background-color: #818884;
+  background-color: #F8F8FF;
   border: 4px;
   border-radius: 12px;
   border-style: solid;
@@ -670,7 +670,7 @@ main.home .imagenes .tabla {
 @media (max-width: 576px) {
   #datos h2.phone {
     color: #D4AF37;
-    background-color: #818884;
+    background-color: #F8F8FF;
     border: 4px;
     border-radius: 12px;
     border-style: solid;
@@ -699,10 +699,8 @@ main.home .imagenes .tabla {
 .tittle h2.carousel {
   display: flex;
   justify-content: center;
-  border: 4px solid #0F110C;
-  background-color: #D4AF37;
   font-family: sushibar;
-  color: white;
+  color: #F8F8FF;
   width: 290px;
 }
 @media (max-width: 576px) {
@@ -722,7 +720,7 @@ main.home .imagenes .tabla {
   flex-direction: column;
   align-items: center;
   background-color: #D4AF37;
-  border: 4px solid #0F110C;
+  border: 4px solid white;
   margin: 0% 428px;
   margin-bottom: 40px;
   width: 600px;
@@ -736,12 +734,12 @@ main.home .imagenes .tabla {
   font-family: poppins;
 }
 .card .card-img-top {
-  margin-top: 20px;
+  padding: 20px;
   object-fit: cover;
 }
 .card .btn-primary {
-  background-color: #0F110C;
-  color: #D4AF37;
+  background-color: #D4AF37;
+  color: #0F110C;
   border-color: unset;
 }
 @media (max-width: 576px) {
@@ -775,10 +773,10 @@ main.home .imagenes .tabla {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #818884;
-  color: #D4AF37;
+  background-color: #D4AF37;
+  color: #0F110C;
   border: 4px;
-  border-color: #0F110C;
+  border-color: #F8F8FF;
   border-style: solid;
 }
 
@@ -799,11 +797,11 @@ h2.promo1 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #D4AF37;
-  background-color: #818884;
+  color: #0F110C;
+  background-color: #D4AF37;
   border: 4px;
   border-style: solid;
-  border-color: #0F110C;
+  border-color: #F8F8FF;
   border-left: unset;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -815,11 +813,11 @@ h2.promo2 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #D4AF37;
-  background-color: #818884;
+  color: #0F110C;
+  background-color: #D4AF37;
   border: 4px;
   border-style: solid;
-  border-color: #0F110C;
+  border-color: #F8F8FF;
   border-right: unset;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -831,11 +829,11 @@ h2.promo3 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #D4AF37;
-  background-color: #818884;
+  color: #0F110C;
+  background-color: #D4AF37;
   border: 4px;
   border-style: solid;
-  border-color: #0F110C;
+  border-color: #F8F8FF;
   border-left: unset;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -978,7 +976,7 @@ div.promo3 img {
 }
 
 .btn-primary:hover {
-  background-color: #818884;
+  background-color: #0F110C;
   color: #D4AF37;
   transform: scale(1.1);
   transition: all 0.2s ease;
