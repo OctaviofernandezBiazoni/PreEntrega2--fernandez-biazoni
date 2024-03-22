@@ -20,12 +20,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 85px auto 75px;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
-  margin: 0%;
-  padding: 0%;
   height: 100%;
+  width: 100%;
   background-color: black;
-  padding: 0%;
-  margin: 0%;
 }
 
 footer {
@@ -57,6 +54,8 @@ footer .footer ul {
 }
 footer .footer ul li {
   list-style-type: none;
+  width: auto;
+  height: auto;
 }
 footer .footer ul .wapp {
   display: flex;
@@ -85,10 +84,13 @@ footer .footer ul .ig {
 }
 footer .footer ul .firma {
   display: flex;
-  width: 45px;
+  width: 120px;
   height: 45px;
-  margin-right: 10px;
-  padding: 5px;
+  margin-right: 50px;
+  padding: 10px;
+}
+footer .footer ul .firma img {
+  object-fit: cover;
 }
 @media (max-width: 576px) {
   footer .footer ul .firma {
@@ -126,6 +128,7 @@ header .container-fluid {
   display: flex;
   margin: 0%;
   padding: 0%;
+  width: 100%;
 }
 header .container-fluid #menu-check {
   display: none;
@@ -194,10 +197,7 @@ header .container-fluid .header nav ul {
   margin-bottom: 0%;
   height: 70px;
   width: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
   background-color: #0F110C;
-  position: fixed;
 }
 header .container-fluid .header nav ul li {
   list-style-type: none;
@@ -737,7 +737,7 @@ main.home .imagenes .tabla {
   padding: 20px;
   object-fit: cover;
 }
-.card .btn-primary {
+.card .btn {
   background-color: #D4AF37;
   color: #0F110C;
   border-color: unset;

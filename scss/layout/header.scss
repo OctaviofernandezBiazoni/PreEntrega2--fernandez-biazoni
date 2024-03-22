@@ -11,6 +11,7 @@ header{
         display: flex;
         margin: 0%;
         padding: 0%;
+        width: 100%  ;
         #menu-check{
             display: none;
         }
@@ -72,11 +73,7 @@ header{
                     margin-bottom: 0%;
                     height: 70px;
                     width: 100%;
-                    padding-left: 5px;
-                    padding-right: 5px;
                     background-color: $color-primario;
-                    position: fixed;
-                   
                     li{
                         list-style-type: none;
                         width: 170px;
