@@ -400,34 +400,6 @@ main {
 main.home {
   margin: auto;
   text-align: center;
-  /* .inicio {
-       display: flex;
-       flex-direction: row;
-       justify-content: center;
-       font-family: poppins;
-       text-align: center;
-       font-size: 36px;
-       background-color: $color-terciario;
-       color: $color-secundario;
-       border: 4px;
-       border-color: $color-primario;
-       border-style: solid;
-       width: 500px;
-       height: 150px;
-       margin: 0%;
-
-       @media(max-width: 576px) {
-           display: flex;
-           flex-direction: column;
-           width: 400px;
-           height: 200px;
-       }
-
-       @media(max-width: 576px) {
-           display: flex;
-           justify-content: center;
-       }
-   }*/
 }
 main.home .video {
   position: relative;
@@ -536,7 +508,7 @@ main.home .imagenes .tabla {
   }
 }
 
-.container-fluid {
+div.contact {
   overflow-x: hidden;
 }
 
