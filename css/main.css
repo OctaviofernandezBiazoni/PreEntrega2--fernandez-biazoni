@@ -540,6 +540,10 @@ main.home .imagenes .tabla {
   }
 }
 
+.container-fluid {
+  overflow-x: hidden;
+}
+
 #h1contacto {
   display: flex;
   flex-direction: column;
