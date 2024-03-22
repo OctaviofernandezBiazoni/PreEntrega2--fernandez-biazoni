@@ -7,14 +7,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 430px;
         height: 60px;
-        background-color: $color-secundario;
-        color: $color-primario;
-        border: 4px;
-        border-color: $color-terciario;
-        border-style: solid;
-    
+        color: $color-terciario;    
     }
 }
 #h2promo2{
@@ -32,12 +27,7 @@ h2.promo1{
     justify-content: center;
     font-family: sushibar;
     font-size: 36px;
-    color: $color-primario;
-    background-color: $color-secundario;
-    border: 4px;
-    border-style: solid;
-    border-color: $color-terciario;
-    border-left: unset;
+    color: $color-terciario;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 200px;
@@ -47,14 +37,7 @@ h2.promo2{
     justify-content: center;
     font-family: sushibar;
     font-size: 36px;
-    color: $color-primario;
-    background-color: $color-secundario;
-    border: 4px;
-    border-style: solid;
-    border-color: $color-terciario;
-    border-right: unset;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: $color-terciario;
     width: 200px;
 }
 h2.promo3{
@@ -62,14 +45,7 @@ h2.promo3{
     justify-content: center;
     font-family: sushibar;
     font-size: 36px;
-    color: $color-primario;
-    background-color: $color-secundario;
-    border: 4px;
-    border-style: solid;
-    border-color: $color-terciario;
-    border-left: unset;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: $color-terciario;
     width: 200px;
 }
 div.promo1{

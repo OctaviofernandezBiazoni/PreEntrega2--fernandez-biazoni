@@ -504,9 +504,7 @@ main.home .imagenes .tabla {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 4px solid #F8F8FF;
-  background-color: #D4AF37;
-  color: #0F110C;
+  color: #F8F8FF;
   font-family: sushibar;
 }
 
@@ -515,9 +513,7 @@ main.home .imagenes .tabla {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 4px solid #F8F8FF;
-  background-color: #D4AF37;
-  color: #0F110C;
+  color: #F8F8FF;
   font-family: sushibar;
 }
 .contenido p {
@@ -558,11 +554,7 @@ main.home .imagenes .tabla {
   align-items: center;
   width: 400px;
   height: 60px;
-  background-color: #F8F8FF;
-  color: #D4AF37;
-  border: 4px;
-  border-color: #0F110C;
-  border-style: solid;
+  color: #F8F8FF;
 }
 
 #maps {
@@ -774,13 +766,9 @@ main.home .imagenes .tabla {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 430px;
   height: 60px;
-  background-color: #D4AF37;
-  color: #0F110C;
-  border: 4px;
-  border-color: #F8F8FF;
-  border-style: solid;
+  color: #F8F8FF;
 }
 
 #h2promo2 {
@@ -800,12 +788,7 @@ h2.promo1 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #0F110C;
-  background-color: #D4AF37;
-  border: 4px;
-  border-style: solid;
-  border-color: #F8F8FF;
-  border-left: unset;
+  color: #F8F8FF;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 200px;
@@ -816,14 +799,7 @@ h2.promo2 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #0F110C;
-  background-color: #D4AF37;
-  border: 4px;
-  border-style: solid;
-  border-color: #F8F8FF;
-  border-right: unset;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  color: #F8F8FF;
   width: 200px;
 }
 
@@ -832,14 +808,7 @@ h2.promo3 {
   justify-content: center;
   font-family: sushibar;
   font-size: 36px;
-  color: #0F110C;
-  background-color: #D4AF37;
-  border: 4px;
-  border-style: solid;
-  border-color: #F8F8FF;
-  border-left: unset;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  color: #F8F8FF;
   width: 200px;
 }
 
