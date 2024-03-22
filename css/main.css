@@ -11,6 +11,7 @@
   src: url(../resources/fonts/poppinsmedium.ttf);
 }
 * {
+  width: 100%;
   padding: 0%;
   margin: 0%;
 }
@@ -181,7 +182,6 @@ header .container-fluid .header nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0%;
   height: 70px;
   width: 100%;
   padding-left: 5px;
@@ -285,7 +285,6 @@ header .container-fluid .header nav ul .inicio .katanaderecha {
 header .container-fluid .header nav ul .link {
   font-family: poppins;
   font-size: 16px;
-  margin: 0% 20px;
   color: #D4AF37;
   text-align: center;
 }
